@@ -8,6 +8,6 @@
 namespace WP_Rig\WP_Rig;
 ?>
 
-<div class="hero-text-overlay">
-    <h1></h1>
+<div class="hero-text-overlay">  
+    <?php get_template_part( 'template-parts/partials/action-button', 'btn'); ?>
 </div><!-- .hero-text-overlay -->

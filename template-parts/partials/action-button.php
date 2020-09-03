@@ -10,5 +10,7 @@ namespace WP_Rig\WP_Rig;
 ?>
 
 <div class="action">
-    <a href="/contact-us"><div id="action-btn"><span></span></div></a>
+    <a href="/contact-us">
+        <div id="action-btn">Free Estimate</div>
+    </a>
 </div><!-- .action -->

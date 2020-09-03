@@ -1,5 +1,41 @@
 @import "_custom-properties.css";
 @import "_custom-media.css";
+
+/*--------------------------------------------------------------
+## BAR ABOVE THE MENU BAR
+--------------------------------------------------------------*/
+.offersTitleBar{
+	font-size: 40px !important;
+	color: #fff !important;
+	background-color: red !important;
+	text-align: center !important;
+	/* border-bottom: 2px solid transparent; */
+	padding: 10px !important;
+	font-weight: 900 !important;
+}
+.offersTitleBar:after{
+	content: "";
+	display: block;
+	margin: 0 auto; 
+    width: 380px !important; 
+    padding-top: 10px; 
+	border-bottom: 2px solid #fff; 
+	margin-top: -13px !important;
+}
+
+/*--------------------------------------------------------------
+## BAR BELOW THE HERO IMAGE
+--------------------------------------------------------------*/
+.barArrows{
+	font-size: 40px !important;
+	color: #fff !important;
+	background-color: blue !important;
+	text-align: center !important;
+	/* border-bottom: 2px solid transparent; */
+	padding: 10px !important;
+	font-weight: 900 !important;
+}
+
 /*--------------------------------------------------------------
 ## Header / Hero
 --------------------------------------------------------------*/
@@ -24,11 +60,30 @@
 }
 .hero-container {
 	position: relative;
+	background-image: url("/wp-content/uploads/2020/09/House-with-labels.png");
+	background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: 50% 35%!important;
+    height: 80vh;
 }
+
+.hero-title h1{
+	font-size: 80px !important;
+	color: blue !important;
+	text-align: center !important;
+	display: flex;
+	justify-content: flex-start !important;
+	flex-direction: column !important;
+}
+.hero-title{
+	display: flex !important;
+}
+
 .hero-content {
 	width: 100%;
 	max-width: var(--content-width);
-	margin: auto;
+	/* margin: auto; */
+	margin-left: 15px !important;
 }
 .hero-text {
 	margin: 0;
@@ -55,6 +110,58 @@
 }
 .branding-wrapper img{
 	width: 200px !important;
+}
+.site-navigation{
+	flex-grow: 2!important;
+}
+.site-header {
+    padding-bottom: 0.2em !important;
+}
+
+/* CODE FOR SERVICES AND SUB ITEMS*/
+#menu-menu-1 .sub-menu{
+	background-color: blue !important;
+}
+#menu-menu-1 .sub-menu a{
+	color: #fff !important;
+}
+#menu-menu-1 .sub-menu a:hover{
+	color: red !important;
+}
+.menu-item-46>.sub-menu{
+    display: none !important;
+}
+.menu-item-46:hover>.sub-menu{
+	display: block !important;
+    left: 99% !important;
+}
+.menu-menu-1-container a:focus{
+	outline: none !important;
+}
+
+.main-navigation .sub-menu {
+	width: 200px !important;
+	position: absolute !important;
+}
+
+.main-navigation li {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+.main-navigation a {
+    display: block;
+    width: 100%;
+}
+.main-navigation .sub-menu li a {
+    padding: 5px;
+}
+
+/* Call to action */
+.header-action-wrapper .number{
+	font-size: 35px !important;
+	font-weight: 800 !important;
 }
 /*--------------------------------------------------------------
 ## Box
