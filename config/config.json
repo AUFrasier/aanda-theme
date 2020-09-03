@@ -1,0 +1,16 @@
+{
+  "theme": {
+    "slug": "aanda",
+    "name": "A&A Roofing theme",
+    "author": "Art Unlimited",
+    "PHPNamespace": "WP_Rig\\WP_Rig"
+  },
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "aanda.artunlimitedproof1.test",
+      "bypassPort": "8181",
+      "https": true
+    }
+  }
+}
