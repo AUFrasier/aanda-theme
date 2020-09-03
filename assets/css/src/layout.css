@@ -10,7 +10,11 @@
 }
 .header-top {
 	position: relative;
-	display: grid;
+	display: flex;
+	align-items: center !important;
+	justify-content: space-around !important;
+	width: 90% !important;
+	margin: 0 auto;
 }
 .header-contact-action a {
     color: var(--primary-color);
@@ -48,6 +52,9 @@
     margin: auto;
 	width: 100%;
 	max-width: var(--content-width);
+}
+.branding-wrapper img{
+	width: 200px !important;
 }
 /*--------------------------------------------------------------
 ## Box

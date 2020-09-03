@@ -11,5 +11,5 @@ namespace WP_Rig\WP_Rig;
 <div class="header-top">
     <?php get_template_part( 'template-parts/header/branding' ); ?>
     <?php get_template_part( 'template-parts/header/navigation' ); ?>
-    <?php get_template_part( 'template-parts/header/action' ); ?>
+    <?php get_template_part( 'template-parts/header/header-action' ); ?>
 </div><!-- .header-top -->
