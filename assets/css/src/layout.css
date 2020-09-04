@@ -281,3 +281,135 @@
 	background-color: var(--primary-color);
 	font-family: var(--global-font-family-bold);
 }
+
+
+/*--------------------------------------------------------------
+## Section 1
+--------------------------------------------------------------*/
+.card{
+	height: 500px !important;
+	margin: 30px 30px !important;
+	border: none !important;
+}
+.card-front .card-title{
+	font-size: 50px !important;
+	background-color: blue;
+}
+.card-body .card-title{
+	text-align: center !important;
+	font-size: 50px !important;
+}
+.card-body .card-text{
+	text-align: center !important;
+	font-size: 30px !important;
+}
+.card-body a{
+	display: flex;
+	align-items: center !important;
+	justify-content: center !important;
+	width: 250px !important;
+	margin: 0 auto !important;
+}
+.card-front .card-body{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end !important;
+}
+
+/* -------------------   START OF CARDS     ------------------------------*/
+
+/* CARD GENERAL */
+.card .card-front{
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-position: 50% 85% !important;
+}
+.card .card-back{
+	background-color: #0473b0 !important;
+	background-blend-mode: multiply;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+}
+/* CARD 1 */
+.card .card-front-1{
+	background: url("/wp-content/uploads/2020/09/Roof_Lines_RGB.jpg");
+}
+.card .card-back-1{
+	background-image: url("/wp-content/uploads/2020/09/Roof_Lines_RGB.jpg")!important;
+	background-position: 50% 85% !important;
+}
+/* CARD 2 */
+.card .card-front-2{
+	background: url("/wp-content/uploads/2020/09/McKinnon-Vinyl-Siding-Salem-After-2-scaled.jpg");
+	background-position: 50% 85% !important;
+}
+.card .card-back-2{
+	background: url("/wp-content/uploads/2020/09/McKinnon-Vinyl-Siding-Salem-After-2-scaled.jpg");
+	background-position: 50% 85% !important;
+}
+/* CARD 3 */
+.card .card-front-3{
+	background: url("/wp-content/uploads/2020/09/entrydoor_3-scaled.jpg");
+	background-position: 50% 50% !important;
+}
+.card .card-back-3{
+	background: url("/wp-content/uploads/2020/09/entrydoor_3-scaled.jpg");
+	background-position: 50% 50% !important;
+}
+/* CARD 4 */
+.card .card-front-4{
+	background: url("/wp-content/uploads/2020/09/entrydoor_3-scaled.jpg");
+	background-position: 50% 50% !important;
+}
+.card .card-back-4{
+	background: url("/wp-content/uploads/2020/09/entrydoor_3-scaled.jpg");
+	background-position: 50% 50% !important;
+}
+/* -------------------   END OF CARDS     ------------------------------*/
+
+
+.card-flip > div {
+	backface-visibility: hidden;
+	transition: transform 0.5s;
+	transition-timing-function: linear;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+  }
+  
+  .card-front {
+	transform: rotateY(0deg);
+  }
+  
+  .card-back {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+  }
+  
+  .card-flip:hover .card-front {
+	transform: rotateY(-180deg);
+  }
+	
+  .card-flip:hover .card-back {
+	transform: rotateY(0deg);
+  }
+
+  .wrap-1 .btn-action{
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+  }
+
+  .wrap-1 .btn-action button{
+	width: 350px !important;
+	font-size: 30px !important;
+	font-weight: 800 !important;
+	background-color: yellow !important;
+	border: 3px solid blue !important;
+	text-transform: uppercase !important;
+}
+.wrap-1 .btn-action button:hover{
+	color: black !important;
+}
