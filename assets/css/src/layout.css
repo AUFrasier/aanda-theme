@@ -413,3 +413,129 @@
 .wrap-1 .btn-action button:hover{
 	color: black !important;
 }
+
+/*--------------------------------------------------------------
+## Section 2
+--------------------------------------------------------------*/
+.wrap-2{
+	background-color: blue;
+	box-sizing: border-box;
+	border: 20px solid blue;
+}
+
+.wrap-2 .row{
+	display: flex !important;
+	justify-content: space-around;
+	align-items: center;
+	box-sizing: border-box;
+	border: 5px solid #fff;
+}
+
+.wrap-2 .row img{
+	width: 200px !important;
+}
+
+/*--------------------------------------------------------------
+## Section 3
+--------------------------------------------------------------*/
+.wrap-3{
+	background-color: #0473b0 !important;
+	background-blend-mode: multiply;
+	background-image: url("/wp-content/uploads/2020/09/bigstock-Multicolored-Safety-Constructi-350574364-scaled.jpg");
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	border: 50px solid transparent !important;
+	background-position: 80% 70% !important;
+}
+.wrap-3 .row{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	border: 5px solid #fff;
+}
+
+.wrap-3 .values__title h2{
+	font-size: 70px !important;
+	color: #fff;
+	font-weight: 900 !important;
+	text-transform: uppercase;
+	margin-bottom: 50px !important;
+	margin-top: 30px !important;
+}
+
+.wrap-3 .row .values__section-1,
+.wrap-3 .row .values__section-2{
+	display: flex;
+	flex-direction: row;
+	color: #fff;
+	margin-bottom: 70px !important;
+}
+
+.wrap-3 .row .values__section-1 h3,
+.wrap-3 .row .values__section-2 h3{
+	font-size: 40px !important;
+}
+
+.wrap-3 .row .values__section-3 h3{
+	font-size: 70px !important;
+	margin-bottom: 30px !important;
+}
+
+.wrap-3 .row .values__section-1 .one{
+	margin-right: 192px !important;
+}
+
+.wrap-3 .row .values__section-2 .one{
+	margin-right: 142px !important;
+}
+
+.wrap-3 .values__section-3{
+	font-size: 40px !important;
+	color: #fff;
+	text-align: center !important;
+}
+
+/*--------------------------------------------------------------
+## Section 4 -- Testimonials
+--------------------------------------------------------------*/
+.wrap-4 .test{
+	justify-content: center !important;
+	box-sizing: border-box;
+	border: 5px solid blue;
+}
+.swiper-pagination-testimonials{
+	text-align: center !important;
+}
+.wrap-4{
+	box-sizing: border-box;
+	border: 50px solid #fff;
+}
+
+.testimonial-content{
+	font-size: 28px !important;
+	font-weight: 500 !important;
+	color: #000;
+	width: 80% !important;
+	margin: 0 auto;
+	margin-bottom: 20px !important;
+	line-height: 1.3 !important;
+	margin-top: 50px !important;
+}
+.testimonial-author{
+	font-size: 28px !important;
+	color: #000;
+	margin-bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+    width: 15px !important;
+    height: 15px !important;
+    background-color: blue !important;
+    margin: 10px;
+}
+
+/*--------------------------------------------------------------
+## Section 5
+--------------------------------------------------------------*/

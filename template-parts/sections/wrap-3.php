@@ -11,7 +11,24 @@ namespace WP_Rig\WP_Rig;
 
 <div class="wrap wrap-3">
     <div class="container-fluid">
-        <div id="bond">
+        <div class="row">
+            <div class="values__title">
+                <h2>Our Core Values</h2>
+            </div>
+            <div class="values__section">
+                <div class="values__section-1">
+                    <h3 class="one">Be a <strong>Team Player</strong></h3>
+                    <h3>Dedicated to <strong>Quality</strong></h3>
+                </div>
+                <div class="values__section-2">
+                    <h3 class="one">Do <strong>Whatever It takes</strong></h3>
+                    <h3>Act With <strong>Integrity</strong></h3>
+                </div>
+                <div class="values__section-3">
+                    <h3><strong>Deliver A Positive Experience<strong></h3>                
+                </div>
+            </div>
+            <button>Free Estimate</button>
 		</div>
     </div>
 </div><!-- .wrap-3 -->
