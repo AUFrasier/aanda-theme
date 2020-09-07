@@ -15,10 +15,8 @@ namespace WP_Rig\WP_Rig;
     <div class="row">
         <div class="col-6">
             <div class="card card-flip mb-4 mt-4">
-                <div class="card-front card-front-1 text-white">
-                    <div class="card-body">
-                        <h3 class="card-title">Roofing</h3>
-                    </div>
+                <div class="card-front card-front-1 text-white">                   
+                        <h3 class="card-title">Roofing</h3>                   
                 </div>
                 <div class="card-back card-back-1 text-white">
                     <div class="card-body">
@@ -38,9 +36,7 @@ namespace WP_Rig\WP_Rig;
         <div class="col-6">
             <div class="card card-flip mb-4 mt-4">
                 <div class="card-front card-front-2 text-white">
-                    <div class="card-body">
                         <h3 class="card-title">Siding</h3>
-                    </div>
                 </div>
                 <div class="card-back card-back-2 text-white">
                     <div class="card-body">
@@ -57,9 +53,7 @@ namespace WP_Rig\WP_Rig;
         <div class="col">
             <div class="card card-flip">
                 <div class="card-front card-front-3 text-white">
-                    <div class="card-body">
                         <h3 class="card-title">Windows</h3>
-                    </div>
                 </div>
                 <div class="card-back card-back-3 text-white">
                     <div class="card-body">
@@ -73,9 +67,7 @@ namespace WP_Rig\WP_Rig;
         <div class="col">
             <div class="card card-flip">
                 <div class="card-front card-front-4 text-white">
-                    <div class="card-body">
                         <h3 class="card-title">Doors</h3>
-                    </div>
                 </div>
                 <div class="card-back card-back-4 text-white">
                     <div class="card-body">

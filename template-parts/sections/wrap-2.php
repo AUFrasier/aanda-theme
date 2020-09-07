@@ -17,7 +17,7 @@ namespace WP_Rig\WP_Rig;
                     <img src="/wp-content/uploads/2020/09/A_ALOGO_Aplus_new.png" alt="logo">
                     <h2>Solutions</h2>
                 </div>
-                <div class="divSolution__par">
+                <div class="divSolution__par par">
                     <p>
                         10,000 jobs completed <br>
                         since 1982
@@ -29,7 +29,7 @@ namespace WP_Rig\WP_Rig;
                     <img src="/wp-content/uploads/2020/09/A_ALOGO_Aplus_new.png" alt="logo">
                     <h2>Teamwork</h2>
                 </div>
-                <div class="divteamwork__par">
+                <div class="divteamwork__par par">
                     <p>
                         90% of jobs done <br>
                         in a week or less
@@ -41,7 +41,7 @@ namespace WP_Rig\WP_Rig;
                     <img src="/wp-content/uploads/2020/09/A_ALOGO_Aplus_new.png" alt="logo">
                     <h2>Support</h2>
                 </div>
-                <div class="divSupport__par">
+                <div class="divSupport__par par">
                     <p>
                         Friendly staff <br>
                         to answer questions

@@ -118,6 +118,10 @@
     padding-bottom: 0.2em !important;
 }
 
+.main-navigation a{
+	color: blue !important
+}
+
 /* CODE FOR SERVICES AND SUB ITEMS*/
 #menu-menu-1 .sub-menu{
 	background-color: blue !important;
@@ -158,11 +162,66 @@
     padding: 5px;
 }
 
+.hero-text-overlay .action #action-btn{
+	background-color: yellow;
+    color: blue;
+    font-weight: 800 !important;
+    border: 3px solid blue !important;
+    text-transform: uppercase;
+    width: 350px !important;
+	text-align: center;
+	font-size: 35px !important;
+	padding: 10px !important;
+}
+
+.hero-text-overlay{
+	margin-top: 100px !important;
+	margin-left: 150px !important;
+	box-sizing: border-box;
+	border: 20px solid #fff !important;
+	width: 390px !important;
+}
+
 /* Call to action */
 .header-action-wrapper .number{
-	font-size: 35px !important;
+	font-size: 28px !important;
 	font-weight: 800 !important;
 }
+
+.header-action-wrapper .header-action button{
+	margin-top: 10px !important;
+}
+
+.header-action button{
+	background-color: yellow;
+    color: blue;
+    font-weight: 800 !important;
+    border: 3px solid blue !important;
+	text-transform: uppercase;
+	margin-top: 100px !important;
+}
+
+
+/*--------------------------------------------------------------
+## Bar ARROWS
+--------------------------------------------------------------*/
+.barArrows{
+    margin-bottom: 60px !important;
+}
+.barArrows .fa{
+    border: 4px solid #fff;
+    border-radius: 50%;
+    padding: 65px !important;
+    font-size: 110px !important;
+}
+
+.barArrows .row .col{
+	font-size: 30px !important;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*--------------------------------------------------------------
 ## Box
 --------------------------------------------------------------*/
@@ -330,6 +389,17 @@
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
 }
+
+.card-front .card-title{
+	width: 100% !important;
+	height: 80px !important;
+	display: flex;
+	justify-content: center !important;
+	align-self: flex-end !important;
+	margin-bottom: 0 !important;
+	padding-top: 9px !important;
+	border-top: 3px solid #fff;
+}
 /* CARD 1 */
 .card .card-front-1{
 	background: url("/wp-content/uploads/2020/09/Roof_Lines_RGB.jpg");
@@ -402,7 +472,7 @@
 	  align-items: center;
   }
 
-  .wrap-1 .btn-action button{
+.wrap-1 .btn-action button{
 	width: 350px !important;
 	font-size: 30px !important;
 	font-weight: 800 !important;
@@ -410,6 +480,12 @@
 	border: 3px solid blue !important;
 	text-transform: uppercase !important;
 }
+
+.wrap-1 .btn-action{
+	margin-bottom: 60px !important;
+    margin-top: 40px !important;
+}
+
 .wrap-1 .btn-action button:hover{
 	color: black !important;
 }
@@ -421,6 +497,7 @@
 	background-color: blue;
 	box-sizing: border-box;
 	border: 20px solid blue;
+	margin-bottom: 60px !important;
 }
 
 .wrap-2 .row{
@@ -431,9 +508,42 @@
 	border: 5px solid #fff;
 }
 
+.wrap-2 .row h2{
+	color: #fff;
+	font-size: 50px !important;
+	font-weight: 800 !important;
+}
+
+.wrap-2 .row p{
+	color: #fff;
+}
+
 .wrap-2 .row img{
 	width: 200px !important;
 }
+
+.wrap-2 .row .par{
+	display: flex;
+	justify-content: center;
+	font-size: 30px !important;
+}
+
+.divSolution__title,
+.divteamwork__title,
+.divSupport__title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px !important;
+}
+
+.divSolution,
+.divteamwork,
+.divSupport {
+	margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
 
 /*--------------------------------------------------------------
 ## Section 3
@@ -578,3 +688,62 @@
 	color: #fff;
 	font-size: 25px !important;
 }
+
+/*--------------------------------------------------------------
+## Section 6
+--------------------------------------------------------------*/
+
+.wrap-6{
+	margin-top: 70px !important;
+	box-sizing: border-box;
+	border: 50px solid blue !important;
+}
+
+.wrap-6 .row{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff !important;
+	background-color: blue;
+	box-sizing: border-box;
+	border: 5px solid #fff;
+}
+
+.wrap-6 .row h2{
+	font-size: 70px !important;
+	font-weight: 800 !important;
+	margin-top: 40px !important;
+}
+
+.wrap-6 .row p{
+	font-size: 30px !important;
+	font-weight: 400 !important;
+}
+
+.wrap-6 .row .second{
+	margin-bottom: 50px !important;
+}
+
+.wrap-6 .row img{
+	background-position: 50% 50%;
+	height: 500px !important;
+	width: 800px !important;
+	margin-bottom: 40px !important;
+}
+
+.wrap-6 .row button{
+	margin-bottom: 40px !important;
+}
+
+/*--------------------------------------------------------------
+## Section 7
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Section 8
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Section 9
+--------------------------------------------------------------*/
