@@ -539,3 +539,42 @@
 /*--------------------------------------------------------------
 ## Section 5
 --------------------------------------------------------------*/
+.wrap-5{
+	background-color: blue;
+}
+
+.wrap-5 .reviews .logo{
+	width: 100px !important;
+	border-right: 5px solid #fff;
+	padding-right: 15px !important;
+}
+
+.wrap-5 .row{
+	display: flex;
+	justify-content: space-around !important;
+	align-items: center;
+	padding-top: 40px !important;
+	padding-bottom: 40px !important;
+}
+
+.wrap-5 .reviews{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrap-5 .reviews .stars{
+	padding-left: 30px !important;
+}
+
+.wrap-5 .reviews .stars p{
+	margin-bottom: 0 !important;
+	color: #fff;
+	font-size: 35px !important;
+	font-weight: 500 !important;
+}
+
+.wrap-5 .reviews .stars i{
+	color: #fff;
+	font-size: 25px !important;
+}

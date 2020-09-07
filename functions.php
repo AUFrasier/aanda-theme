@@ -170,6 +170,7 @@ function wpb_adding_scripts() {
 	wp_enqueue_script('jquery');
 	wp_register_script('jquery-migrate', '//code.jquery.com/jquery-migrate-1.2.1.min.js', array('jquery'),'1.1', true);
 	wp_enqueue_script('jquery-migrate');
+	
 	if(is_front_page()) { 
 		wp_register_script('swiper-js', content_url() . '/lib/swiper/js/swiper.min.js', array('jquery'),'1.1', true);
 		wp_enqueue_script('swiper-js');
