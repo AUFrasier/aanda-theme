@@ -12,7 +12,19 @@ namespace WP_Rig\WP_Rig;
 <div class="wrap wrap-7">
     <div class="container-fluid">
         <div class="row">
-            
+            <div class="map">
+                <img src="/wp-content/uploads/2020/09/Screen-Shot-2020-07-27-at-3.35.53-PM.png" alt="">
+            </div>
+            <div class="text">
+                <h3>
+                    NOW SERVING THE <br>
+                    GREATER NORTH SHORE <br>
+                    OF BOSTON IN ESSEX <br>
+                    AND PARTS OF <br>
+                    MIDDLESEX COUNTIES!
+                </h3>
+                <button>hello</button>
+            </div>
         </div>
     
     </div>
