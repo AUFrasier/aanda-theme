@@ -47,29 +47,3 @@ $headerClass = is_front_page() ? 'site-header' : 'site-header-subpage';
 			} ?>
 		</div><!-- .header-container -->
 	</header><!-- .site-header -->
-
-<!--- ADDED For The BAR --->
-<div class="barArrows">
-	<div class="row">
-		<div class="col">
-			Experience the <br>
-			Anti-Sales Meeting
-		</div>
-		<div class="col">
-			<i class="fa fa-arrow-right" aria-hidden="true"></i>
-			<!--- <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> --->
-		</div>
-		<div class="col">
-			Receive <br>
-			Expert Delivery
-		</div>
-		<div class="col">
-			<i class="fa fa-arrow-right" aria-hidden="true"></i>
-		</div>
-		<div class="col">
-			Obtain Lifetime Support <br>
-			as a member of the <br>
-			A & A Family
-		</div>
-	</div>
-</div>

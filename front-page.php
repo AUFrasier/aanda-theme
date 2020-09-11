@@ -21,6 +21,7 @@ if ( is_home() ) {
 ?>
 	<main id="primary" class="site-main">
 		<?php
+		get_template_part( 'template-parts/sections/wrap', '0' );
 		get_template_part( 'template-parts/sections/wrap', '1' );
 		get_template_part( 'template-parts/sections/wrap', '2' );
 		get_template_part( 'template-parts/sections/wrap', '3' );

@@ -206,21 +206,48 @@
 /*--------------------------------------------------------------
 ## Bar ARROWS
 --------------------------------------------------------------*/
-.barArrows{
-    margin-bottom: 60px !important;
+.wrap-0 .row{
+	margin-bottom: 60px !important;
+	background-color: blue;
 }
-.barArrows .fa{
-    border: 4px solid #fff;
+.wrap-0 .row .col {
+    margin-bottom: 0 !important;
+}
+/* Start for ARROW*/
+.wrap-0 .row .colArrow{
+	position: relative !important;
+}
+.wrap-0 .row .col img{
+    height: auto;
+    padding: 70px 50px !important;
+    border: 3px solid #fff;
     border-radius: 50%;
-    padding: 65px !important;
-    font-size: 110px !important;
+    position: absolute;
+    top: -40px;
+    z-index: 900;
+    background-color: blue;
 }
-
-.barArrows .row .col{
-	font-size: 30px !important;
+/* End for ARROW*/
+.wrap-0 .row .col p{
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+	padding-top: 0 !important;
+	margin-top: 0 !important;
+}
+.wrap-0 .row .col{
 	display: flex;
     justify-content: center;
-    align-items: center;
+	align-items: center;
+	flex-direction: column;
+}
+.wrap-0 .row .col p{
+	font-size: 1.9rem !important;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff !important;
+	font-weight: 900 !important;
 }
 
 /*--------------------------------------------------------------
