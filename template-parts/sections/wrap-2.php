@@ -17,6 +17,9 @@ namespace WP_Rig\WP_Rig;
                     <img src="/wp-content/uploads/2020/09/A_ALOGO_Aplus_new.png" alt="logo">
                     <h2>Solutions</h2>
                 </div>
+                <div class="logo">
+                    <img src="/wp-content/uploads/2020/09/A_A_swoosh.png" alt="">
+                </div>
                 <div class="divSolution__par par">
                     <p>
                         10,000 jobs completed <br>
@@ -29,6 +32,9 @@ namespace WP_Rig\WP_Rig;
                     <img src="/wp-content/uploads/2020/09/A_ALOGO_Aplus_new.png" alt="logo">
                     <h2>Teamwork</h2>
                 </div>
+                <div class="logo">
+                    <img src="/wp-content/uploads/2020/09/A_A_swoosh.png" alt="">
+                </div>
                 <div class="divteamwork__par par">
                     <p>
                         90% of jobs done <br>
@@ -40,6 +46,9 @@ namespace WP_Rig\WP_Rig;
                 <div class="divSupport__title">
                     <img src="/wp-content/uploads/2020/09/A_ALOGO_Aplus_new.png" alt="logo">
                     <h2>Support</h2>
+                </div>
+                <div class="logo">
+                    <img src="/wp-content/uploads/2020/09/A_A_swoosh.png" alt="">
                 </div>
                 <div class="divSupport__par par">
                     <p>

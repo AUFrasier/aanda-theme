@@ -139,11 +139,35 @@ function show_custom_metabox_content(){
 
  function on_save_post_content($post_id){
     $meta_value = isset($_POST["content_meta_box_nonce"]) ?  $_POST["content_meta_box_nonce"]  : false;
-
     update_post_meta($post_id,"content_meta_box_nonce", $meta_value);
+ }
+
+ /* START CITY */
+ function add_city_metabox(){
+    add_meta_box(
+        "city_meta_box",
+        "City",
+        "show_custom_metabox_city",
+        "testimonial"
+    );
+}
+add_action("add_meta_boxes", "add_city_metabox");
+
+function show_custom_metabox_city(){
+	global $post;
+    $value = get_post_meta($post->ID, "city_meta_box_nonce", true); 
+	echo '<input type="text" name="city_meta_box_nonce" value="'. $value .'">';
+ }
+
+ function on_save_post_city($post_id){
+    $meta_value = isset($_POST["city_meta_box_nonce"]) ?  $_POST["city_meta_box_nonce"]  : false;
+
+    update_post_meta($post_id,"city_meta_box_nonce", $meta_value);
 
  }
- add_action("save_post", "on_save_post_content");
+/* END CITY */
+
+ add_action("save_post", "on_save_post_city");
 
 // load css into the website's front-end
 function mytheme_enqueue_styles() {

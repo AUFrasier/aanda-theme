@@ -13,7 +13,7 @@ namespace WP_Rig\WP_Rig;
     <div class="container-fluid">
         <div class="row">
             <div class="map">
-                <img src="/wp-content/uploads/2020/09/Screen-Shot-2020-07-27-at-3.35.53-PM.png" alt="">
+                <img src="/wp-content/uploads/2020/09/A_A_map.png" alt="">
             </div>
             <div class="text">
                 <h3>

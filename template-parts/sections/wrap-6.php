@@ -25,7 +25,7 @@ namespace WP_Rig\WP_Rig;
                 trusted relationships through high quality product installation of roofing, siding, <br>
                 windows, and doors. <strong>We guarantee that “We’ll Make It Right” on every project.</strong> <br>
             </p>
-            <img src="/wp-content/uploads/2020/09/Chris-_-Barb-II-2018-scaled.jpg" alt="">
+            <img src="/wp-content/uploads/2020/09/A_A_family.png" alt="">
             <button>Hello</button>
         </div>
     
