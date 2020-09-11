@@ -22,11 +22,16 @@ namespace WP_Rig\WP_Rig;
                     <div class="card-body">
                         <h3 class="card-title">Roofing</h3>
                         <p class="card-text">
+                            <!---
                             At A&A Services Home Improvement, our <br>
                             professionals are here to help you solve all your <br>
                             roofing problems. Our technician can tell you if you <br>
                             need a simple repair from a leak or if your shingles <br>
                             are too damaged and you may need replacement.
+                            --->
+                            Get to the bottom of that roof leak with a complete roof inspection 
+                            from a knowledgeable Sales Technician
+
                         </p>
                         <a href="#" class="btn btn-outline-secondary">Roofing</a>
                     </div>
@@ -40,9 +45,11 @@ namespace WP_Rig\WP_Rig;
                 </div>
                 <div class="card-back card-back-2 text-white">
                     <div class="card-body">
-                        <h3 class="card-title">Sidng</h3>
-                        <p class="card-text">Suprise this one has more more more more content on the back!</p>
-                        <a href="#" class="btn btn-outline-secondary">Action</a>
+                        <h3 class="card-title">Siding</h3>
+                        <p class="card-text">
+                            Update the old siding for new curb appealand no more maintenance.                      
+                        </p>
+                        <a href="#" class="btn btn-outline-secondary">Siding</a>
                     </div>
                 </div>
             </div>
@@ -58,8 +65,10 @@ namespace WP_Rig\WP_Rig;
                 <div class="card-back card-back-3 text-white">
                     <div class="card-body">
                         <h3 class="card-title">Windows</h3>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-outline-secondary">Action</a>
+                        <p class="card-text">
+                            Stop paying to heat/cool the outdoors with drafty windows.
+                        </p>
+                        <a href="#" class="btn btn-outline-secondary">Windows</a>
                     </div>
                 </div>
             </div>
@@ -72,8 +81,11 @@ namespace WP_Rig\WP_Rig;
                 <div class="card-back card-back-4 text-white">
                     <div class="card-body">
                         <h3 class="card-title">Doors</h3>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-outline-secondary">Action</a>
+                        <p class="card-text">
+                            Love the new look of a new front entry door that opens and 
+                            closes the way it should and is inviting to your family and friends.
+                        </p>
+                        <a href="#" class="btn btn-outline-secondary">Doors</a>
                     </div>
                 </div>
             </div>
