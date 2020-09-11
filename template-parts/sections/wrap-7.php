@@ -23,7 +23,12 @@ namespace WP_Rig\WP_Rig;
                     AND PARTS OF <br>
                     MIDDLESEX COUNTIES!
                 </h3>
-                <button>hello</button>
+
+                <a href="/contact-us">
+		            <div class="btn-action">
+			            <button type="button" class="btn btn-lg btn-outline-primary btnSecHeader">Free Estimate</button>
+		            </div>		
+                </a>
             </div>
         </div>
     

@@ -604,6 +604,23 @@
 	border: 50px solid transparent !important;
 	background-position: 80% 70% !important;
 }
+/*Button Start*/
+.wrap-3 .btn-action{
+    margin-bottom: 40px !important;
+}
+.wrap-3 .btn-action button {
+    width: 350px!important;
+    font-size: 30px!important;
+    font-weight: 800!important;
+    background-color: #ff0!important;
+    border: 3px solid #00f!important;
+    text-transform: uppercase!important;
+}
+.wrap-3 .btn-action button:hover{
+	color: black !important;
+}
+/*Button End*/
+
 .wrap-3 .row{
 	display: flex;
     flex-direction: column;
@@ -744,11 +761,10 @@
 /*--------------------------------------------------------------
 ## Section 6
 --------------------------------------------------------------*/
-
 .wrap-6{
 	margin-top: 70px !important;
 	box-sizing: border-box;
-	border: 50px solid blue !important;
+	border: 80px solid blue !important;
 	margin-bottom: 70px !important;
 }
 
@@ -762,16 +778,64 @@
 	box-sizing: border-box;
 	border: 5px solid #fff;
 }
+.wrap-6 .row img{
+	position: relative;
+}
+.wrap-6 .row .secImg{
+	position: absolute;
+    width: 100% !important;
+    height: 65% !important;
+    left: 39%;
+	z-index: 1;
+	opacity: 0.3;
+}
+
+@media screen and (max-width: 1500px) {
+	.wrap-6 .row .secImg{
+		width: 100% !important;
+		height: 58% !important;
+		left: 39%;
+	}
+	.wrap-6 .row h2{
+		margin-left: 40px !important;
+		margin-right: 40px !important;	
+	}
+	.wrap-6 .row .second {
+		margin-left: 40px !important;
+		margin-right: 40px !important;
+	}
+}
+/*Button Start*/
+.wrap-6 .btn-action{
+    margin-bottom: 40px !important;
+}
+.wrap-6 .btn-action button {
+    width: 350px!important;
+    font-size: 30px!important;
+    font-weight: 800!important;
+    background-color: #ff0!important;
+    border: 3px solid #00f!important;
+    text-transform: uppercase!important;
+}
+.wrap-6 .btn-action button:hover{
+	color: black !important;
+}
+/*Button End*/
 
 .wrap-6 .row h2{
-	font-size: 70px !important;
+	font-size: 4vw !important;
 	font-weight: 800 !important;
 	margin-top: 40px !important;
+	margin-left: 60px !important;
+	margin-right: 60px !important;	
 }
 
 .wrap-6 .row p{
+	text-align: center !important;
 	font-size: 30px !important;
 	font-weight: 400 !important;
+	margin-left: 40px !important;
+	margin-right: 40px !important;
 }
 
 .wrap-6 .row .second{
@@ -800,6 +864,24 @@
     justify-content: space-evenly !important;
     align-items: center !important;
 }
+
+/*Button Start*/
+.wrap-7 .btn-action{
+    margin-top: 30px !important;
+}
+.wrap-7 .btn-action button {
+    width: 350px!important;
+    font-size: 30px!important;
+    font-weight: 800!important;
+    background-color: #ff0!important;
+    border: 3px solid #00f!important;
+    text-transform: uppercase!important;
+}
+.wrap-7 .btn-action button:hover{
+	color: black !important;
+}
+/*Button End*/
+
 .wrap-7 .map img{
 	width: 800px !important;
 	height: 550px;

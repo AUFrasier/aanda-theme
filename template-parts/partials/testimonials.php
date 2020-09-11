@@ -25,7 +25,7 @@ namespace WP_Rig\WP_Rig;
 				<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
 				<div class="swiper-slide"> 
 					<div class="testimonial-info">
-						<div class="col-12">
+						<div class="col">
 							<p class="testimonial-content"><?php echo get_post_meta(get_the_ID(), 'content_meta_box_nonce', true); ?></p>
 							<p class="testimonial-author"><?php echo get_post_meta(get_the_ID(), 'author_meta_box_nonce', true); ?></p>	
 							<p class="testimonial-city"><?php echo get_post_meta(get_the_ID(), 'city_meta_box_nonce', true); ?></p>							

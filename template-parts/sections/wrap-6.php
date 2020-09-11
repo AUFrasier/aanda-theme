@@ -26,7 +26,12 @@ namespace WP_Rig\WP_Rig;
                 windows, and doors. <strong>We guarantee that “We’ll Make It Right” on every project.</strong> <br>
             </p>
             <img src="/wp-content/uploads/2020/09/A_A_family.png" alt="">
-            <button>Hello</button>
+            <img src="/wp-content/uploads/2020/09/A_ALOGO_Aplus_new.png" alt="" class="secImg">
+            <a href="/contact-us">
+		        <div class="btn-action">
+			        <button type="button" class="btn btn-lg btn-outline-primary btnSecHeader">Free Estimate</button>
+		        </div>		
+            </a>
         </div>
     
     </div>

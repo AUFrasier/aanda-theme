@@ -28,7 +28,13 @@ namespace WP_Rig\WP_Rig;
                     <h3><strong>Deliver A Positive Experience<strong></h3>                
                 </div>
             </div>
-            <button>Free Estimate</button>
+
+            <a href="/contact-us">
+		        <div class="btn-action">
+			        <button type="button" class="btn btn-lg btn-outline-primary btnSecHeader">Free Estimate</button>
+		        </div>		
+            </a>
+            
 		</div>
     </div>
 </div><!-- .wrap-3 -->
