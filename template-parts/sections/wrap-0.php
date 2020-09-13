@@ -12,7 +12,7 @@ namespace WP_Rig\WP_Rig;
 <div class="wrap wrap-0">
     <div class="container-fluid">
     <div class="row">  
-            <div class="col">
+            <div class="col colTop">
 			    <p>
 				    Experience the
 			    </p>
@@ -34,7 +34,7 @@ namespace WP_Rig\WP_Rig;
 		    <div class="col colArrow">
 			    <img src="/wp-content/uploads/2020/09/A_A_arrow.png" alt="">
 		    </div>
-		    <div class="col">
+		    <div class="col colBottom">
 			    <p>
 				    Obtain Lifetime Support
 			    </p>

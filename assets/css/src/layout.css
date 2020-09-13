@@ -78,7 +78,10 @@
 }
 .hero-title{
 	display: flex !important;
+	margin-left: 15px !important;
+    padding-top: 20px !important;
 }
+
 
 .hero-content {
 	width: 100%;
@@ -165,7 +168,7 @@
 
 .hero-text-overlay .action #action-btn{
 	background-color: yellow;
-    color: blue;
+    color: blue !important;
     font-weight: 800 !important;
     border: 3px solid blue !important;
     text-transform: uppercase;
@@ -173,6 +176,9 @@
 	text-align: center;
 	font-size: 35px !important;
 	padding: 10px !important;
+}
+.hero-text-overlay .action #action-btn:hover{
+	background-color: var(--primary-color-btn) !important;
 }
 
 .hero-text-overlay{
@@ -195,20 +201,114 @@
 
 .header-action button{
 	background-color: yellow;
-    color: blue;
+    color: blue !important;
     font-weight: 800 !important;
     border: 3px solid blue !important;
 	text-transform: uppercase;
 	margin-top: 100px !important;
 }
+.header-action button:hover{
+	background-color: var(--primary-color-btn) !important;
+}
 
+/*  Get rif of outline */
+.number a:focus {
+    outline: none !important;
+}
 
+@media screen and (max-width: 1352px) {
+	.header-top{
+		display: flex;
+		flex-direction: column;
+	}
+	.site-navigation {
+		width: 100%;
+	}
+	.main-navigation{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.header-action-wrapper .header-action button {
+		margin-bottom: 30px !important;
+	}
+	.header-action-wrapper .number {
+		margin-top: 20px !important;
+	}
+}
+@media screen and (max-width: 768px) {
+	.header-action-wrapper .number {
+		margin-top: 0 !important;
+	}
+	.hero-title h1{
+		font-size: 70px !important;
+	}
+	.mobile-navigation menu {
+		height: auto !important; 
+		border: 5px solid #000;
+		width: 90% !important;
+	}
+	#nav-bars {
+		top: -51px !important;
+		right: -20px !important;
+	}
+	.mobile-navigation menu {
+		right: 0px;
+	}
+}
+@media screen and (max-width: 607px) {
+	.offersTitleBar {
+		font-size: 28px !important;
+	}
+	.offersTitleBar::after {
+		content: "";
+		display: block;
+		width: 262px !important;
+	}
+	#nav-bars {
+		top: -41px !important;
+	}
+	.mobile-navigation label b {
+		right: -1px;
+	}
+}
+@media screen and (max-width: 455px) {
+	.offersTitleBar {
+		font-size: 20px !important;
+	}
+	.offersTitleBar::after {
+		content: "";
+		display: block;
+		width: 190px !important;
+	}
+	#nav-bars {
+		top: -37px !important;
+		right: -11px !important;
+	}
+}
+@media screen and (max-width: 335px) {
+	.offersTitleBar {
+		font-size: 16px !important;
+	}
+	.offersTitleBar::after {
+		content: "";
+		display: block;
+		width: 150px !important;
+	}
+	#nav-bars {
+		right: -37px !important;
+	}
+	.mobile-navigation label b {
+		right: 18px !important;
+		top: 3px;
+	}
+}
 /*--------------------------------------------------------------
 ## Bar ARROWS
 --------------------------------------------------------------*/
 .wrap-0 .row{
 	margin-bottom: 60px !important;
 	background-color: blue;
+	height: 16vh !important;
 }
 .wrap-0 .row .col {
     margin-bottom: 0 !important;
@@ -218,12 +318,13 @@
 	position: relative !important;
 }
 .wrap-0 .row .col img{
-    height: auto;
-    padding: 70px 50px !important;
-    border: 3px solid #fff;
+	height: auto;
+	width: 240px !important;
+    padding: 60px 40px !important;
+    border: 4px solid #fff;
     border-radius: 50%;
     position: absolute;
-    top: -40px;
+    top: -22px;
     z-index: 900;
     background-color: blue;
 }
@@ -248,6 +349,67 @@
 	flex-direction: column;
 	color: #fff !important;
 	font-weight: 900 !important;
+}
+
+
+@media screen and (max-width: 2000px) {
+	.wrap-0 .row .col p {
+		font-size: 1.5rem !important;
+	}
+}
+@media screen and (max-width: 1600px) {
+	.wrap-0 .row .col p {
+		font-size: 1.2rem !important;
+	}
+	.wrap-0 .row .col img {
+		width: 200px !important;
+		padding: 50px 40px !important;
+		top:-15px !important;
+	}
+	.wrap-0 .row{
+		height: 13vh !important;
+	}
+}
+@media screen and (max-width: 1310px) {
+	.wrap-0 .row .col p {
+		font-size: 1rem !important;
+	}
+}
+@media screen and (max-width: 1116px) {
+	.wrap-0 .row .col p {
+		font-size: 1.8rem !important;
+	}
+	.wrap-0 .row{
+		display: flex;
+		flex-direction: column;
+		height: auto !important;
+	}
+
+	.wrap-0 .row .col img {
+		width: 100px !important;
+    	padding: 20px 15px !important;
+		position: relative;
+		margin-top: 30px !important;
+	}
+}
+@media screen and (max-width: 1116px) {
+	.wrap-0 .row .col img {
+		width: 100px !important;
+    	padding: 20px 15px !important;
+		position: relative;
+		margin-top: 30px !important;
+	}
+	.wrap-0 .row .colTop{
+		margin-top: 20px !important;
+	}
+	.wrap-0 .row .colBottom{
+		margin-bottom: 20px !important;
+	}
+}
+@media screen and (max-width: 400px) {
+	.wrap-0 .row .col p {
+		font-size: 1.2rem !important;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -511,6 +673,9 @@
 	border: 3px solid blue !important;
 	text-transform: uppercase !important;
 }
+.wrap-1 .btn-action button:hover{
+	background-color: var(--primary-color-btn) !important;
+}
 
 .wrap-1 .btn-action{
 	margin-bottom: 60px !important;
@@ -527,6 +692,105 @@
     color: #fff !important;
     font-size: 30px !important;
     font-weight: 800 !important;
+}
+
+
+@media screen and (max-width: 1116px) {
+	.card .card-back{
+		transform: translate(0) !important;
+		position: absolute;
+		top: 50% !important
+	}
+	.card .card-front{
+		transform: translateY(0) !important;
+	}
+	.card .card-back{
+		transform: translate(0) !important;
+		position: absolute;
+		top: 50% !important;
+		height: 50%;
+	}
+	.card{
+		margin-bottom: 275px !important;
+	}
+	.card-front .card-title {
+		align-self: flex-start !important;
+	}
+	.card-body .card-title {
+		display: none !important;
+	}
+	.card .card-back-1{
+		background: none !important;
+		background-position: 50% 50% !important;
+	}
+	.card .card-back-2{
+		background: none !important;
+		background-position: 50% 50% !important;
+	}
+	.card .card-back-3{
+		background: none !important;
+		background-position: 50% 50% !important;
+	}
+	.card .card-back-4{
+		background: none !important;
+		background-position: 50% 50% !important;
+	}
+	.card .card-front{
+		background-color: #0473b0 !important;
+		background-blend-mode: multiply;
+		background-position: 50% 85% !important;
+	}
+	.card-body .card-text {
+		font-size: 3vw!important;
+		margin-top: -100px !important;
+	}
+	.card-back-2 .card-body .card-text {
+		font-size: 3vw!important;
+		margin-top: -5px !important;
+	}
+}
+@media screen and (max-width: 991px) {
+	.card-back-1 .card-body .card-text {
+		margin-top: -65px !important;
+	}
+	.card-back-2 .card-body .card-text {
+		margin-top: -60px !important;
+	}
+	.card-back-3 .card-body .card-text {
+		margin-top: -20px !important;
+	}
+	.card {
+		margin-bottom: 25px !important;
+	}
+	.card-body .card-text {
+		font-size: 25px !important;
+	}
+	.card-back-2 .card-body .card-text {
+		font-size: 25px !important;
+	}
+}
+@media screen and (max-width: 800px) {
+	.card-back-1 .card-body .card-text {
+		margin-top: 0 !important;
+	}
+	.card-back-2 .card-body .card-text {
+		margin-top: 0 !important;
+	}
+	.card-back-3 .card-body .card-text {
+		margin-top: 30px !important;
+	}
+	.card-back-4 .card-body .card-text {
+		margin-top: -35px !important;
+	}
+	.card {
+		margin-bottom: 25px !important;
+	}
+}
+@media screen and (max-width: 6001px) {
+	.card{
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -614,10 +878,11 @@
     font-weight: 800!important;
     background-color: #ff0!important;
     border: 3px solid #00f!important;
-    text-transform: uppercase!important;
+	text-transform: uppercase!important;
+	color: blue !important
 }
 .wrap-3 .btn-action button:hover{
-	color: black !important;
+	background-color: var(--primary-color-btn) !important;
 }
 /*Button End*/
 
@@ -815,10 +1080,11 @@
     font-weight: 800!important;
     background-color: #ff0!important;
     border: 3px solid #00f!important;
-    text-transform: uppercase!important;
+	text-transform: uppercase!important;
+	color: blue !important;
 }
 .wrap-6 .btn-action button:hover{
-	color: black !important;
+	background-color: var(--primary-color-btn) !important;
 }
 /*Button End*/
 
@@ -875,10 +1141,11 @@
     font-weight: 800!important;
     background-color: #ff0!important;
     border: 3px solid #00f!important;
-    text-transform: uppercase!important;
+	text-transform: uppercase!important;
+	color: blue !important;
 }
 .wrap-7 .btn-action button:hover{
-	color: black !important;
+	background-color: var(--primary-color-btn) !important;
 }
 /*Button End*/
 
