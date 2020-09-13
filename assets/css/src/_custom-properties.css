@@ -50,6 +50,12 @@
 
 
 	/* A & A */
+	/* Button Size on 530px*/
+	--button-width-one: 230px;
+	--button-font-size-one: 22px;
+
+	--button-width-two: 180px;
+	--button-font-size-two: 18px;
 
 	/* Color Button */
 	--primary-color-btn: #ffffb3;
