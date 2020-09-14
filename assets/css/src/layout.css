@@ -476,7 +476,162 @@
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
+.footer-content{
+	background-color: blue !important;
+	padding: 5px !important;
+}
+/* overall for the whole section*/
+.sec1,
+.sec2{
+	border-right: 4px dashed #ccebff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.sec3{
+	margin-top: 20px;
+}
 
+.footer-menu .forMenu{
+	display: flex;
+	justify-content: space-evenly !important;
+	align-items: center !important;
+}
+.header-action{
+	margin-top: -100px !important;
+}
+.forMenu .menuFooter a{
+	color: #fff !important;
+}
+/* first section */
+.sec1{
+	padding-left: 95px !important;
+}
+.sec1 p{
+	font-weight: 400 !important;
+}
+.home .icon i,
+.phone .icon i,
+.clock .icon i{
+	font-size: 50px !important;
+	color: blue !important;
+	padding-right: 10px !important;
+}
+.home .icon,
+.clock .icon{
+	align-items: center;
+    display: flex;
+}
+.home .text p{
+	margin-bottom: 0 !important;
+}
+
+/* Middle Section */
+.middleSec .home,
+.middleSec .phone,
+.middleSec .clock{
+	display: flex;
+}
+
+.middleSec{
+	display: flex !important;
+	width: 100% !important;
+	background-color: #fff !important;
+}
+.sec1 h4{
+	color: blue !important;
+}
+.sec1 p{
+	color: blue !important;
+}
+.phone .text{
+	display: flex;
+	align-items: center;
+}
+.phone .text p{
+	color: red !important;
+	font-weight: 600 !important;
+}
+.sec2 .row1{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+.sec2 .row2 .text3{
+	display: flex;
+	margin: 0 auto !important;
+	width: 80% !important;
+	justify-content: space-evenly !important;
+}
+.sec2 .row2 .text3 p{
+	color: blue;
+	font-weight: 400 !important;
+	font-size: 20px !important;
+}
+.sec2 .row1 .text1{
+	display: flex;
+	flex-direction: column !important;
+	justify-content: space-evenly;
+}
+.sec2 .row1 .text2{
+	display: flex;
+	flex-direction: column !important;
+	justify-content: space-evenly;
+}
+.sec2 .row1 .text1 a:focus{
+	outline: none !important;
+}
+.sec2 .row1 .text2 a:focus{
+	outline: none !important;
+}
+.sec2 .row1 .text1 a{
+	color: blue !important;
+	font-weight: 400 !important;
+	margin-bottom: 20px !important;
+}
+.sec2 .row1 .text2 a{
+	color: blue !important;
+	font-weight: 400 !important;
+	margin-bottom: 20px !important;
+}
+.sec2 .row1 .text1 a:hover{
+	font-weight: 600 !important;
+	offset: none !important;
+}
+.sec2 .row1 .text2 a:hover{
+	font-weight: 600 !important;
+	offset: none !important;
+}
+.sec3 p{
+	color: blue;
+	font-weight: 400 !important;
+	font-size: 20px !important;
+}
+.sec3 .marginBottom{
+	margin-bottom: 0 !important;
+}
+
+/* Last Section*/
+.lastSection{
+	background-color: blue;
+    padding: 35px !important;
+}
+.site-footer {
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+}
+.text3 i{
+	font-size: 20px !important;
+    background-color: blue;
+    border-radius: -57%;
+    border-radius: 50%;
+    padding: 0px 17px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.text3 p{
+	margin-top: 7px !important;
+}
 /*--------------------------------------------------------------
 ## List
 --------------------------------------------------------------*/
