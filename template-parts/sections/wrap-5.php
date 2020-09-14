@@ -9,8 +9,6 @@ namespace WP_Rig\WP_Rig;
 
 ?>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-
 <div class="wrap wrap-5">
     <div class="container-fluid">
         <div class="row">

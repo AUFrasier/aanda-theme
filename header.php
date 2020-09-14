@@ -29,6 +29,7 @@ $headerClass = is_front_page() ? 'site-header' : 'site-header-subpage';
 	?>
 
 	<?php wp_head(); ?>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
 </head>
 
 <!--- ADDED For The BAR --->

@@ -1092,6 +1092,10 @@
 	font-size: 28px !important;
 	color: #000;
 	margin-bottom: 0 !important;
+	margin-left: 230px !important;
+}
+.testimonial-city{
+	margin-left: 230px !important;
 }
 
 .swiper-pagination-bullet {
