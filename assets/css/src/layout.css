@@ -1276,6 +1276,10 @@
 	.reviews__A{
 		margin-bottom: 30px !important;
 	}
+	/* wrap 6 */
+	.wrap-6 .row p{
+		font-size: 2vw !important;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -1302,6 +1306,18 @@
 		margin-top: 73px !important;
 		font-weight: 900 !important;
 	}
+	.wrap-6 .row .secImg {
+		height: 40% !important;
+		top: 41% !important;
+	}
+	.wrap-6 .row p {
+		font-size: 18px !important;
+	}
+	.wrap-6 .row img {
+		height: 200px !important;
+		width: 300px !important;
+	}
+	
 }
 
 @media screen and (max-width: 727px) {
@@ -1353,6 +1369,15 @@
 		margin-left: 62px !important;
 		margin-top: 84px !important;
 	}
+
+	/* wrap 6 */
+	.wrap-6 .row p {
+		font-size: 15px !important;
+	}
+	.wrap-6 .btn-action button {
+		width: var(--button-width-one) !important;
+		font-size: var(--button-font-size-one) !important;
+	}
 }
 
 @media screen and (max-width: 528px) {
@@ -1394,7 +1419,7 @@
 	}
 	/* wrap 6 */
 	.wrap-6 {
-		border: 20px solid transparent !important;
+		border: 20px solid blue !important;
 	}
 }
 
@@ -1425,6 +1450,23 @@
 	.wrap-3 .row .values__section-2 h3 {
 		font-size: 22px !important;
 	}
+
+	/* wrap 6 */
+	.wrap-6 .row p {
+		font-size: 13px !important;
+	}
+	.wrap-6 .btn-action button {
+		width: var(--button-width-one) !important;
+		font-size: var(--button-font-size-one) !important;
+	}
+	.wrap-6 .row img {
+		height: 150px !important;
+		width: 200px !important;
+	}
+	.wrap-6 .row h2 {
+		font-size: 20px !important;
+	}
+
 }
 
 @media screen and (max-width: 411px) {
@@ -1432,7 +1474,11 @@
 }
 
 @media screen and (max-width: 375px) {
-
+	/* wrap 6 */
+	.wrap-6 .row .secImg {
+		height: 30% !important;
+		top: 56% !important;
+	}
 }
 
 @media screen and (max-width: 360px) {
@@ -1493,10 +1539,25 @@
 	.wrap-5 .reviews .stars p {
 		font-size: 22px !important;
 	}	
+	/* wrap 6 */
+	.wrap-6 .btn-action button {
+		width: var(--button-width-two) !important;
+		font-size: var(--button-font-size-two) !important;
+	}
 }
 
 @media screen and (max-width: 280px) {
 	/* wrap 5 */
+
+	/* wrap 6 */
+	.wrap-6 .row img {
+		height: 100px !important;
+		width: 150px !important;
+	}
+
+	.wrap-6 .row h2 {
+		font-size: 17px !important;
+	}
 }
 
 
