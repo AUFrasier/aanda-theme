@@ -39,7 +39,7 @@ namespace WP_Rig\WP_Rig;
              </p>   
             <img src="/wp-content/uploads/2020/09/A_A_family.png" alt="">
             <img src="/wp-content/uploads/2020/09/A_ALOGO_Aplus_new.png" alt="" class="secImg">
-            <a href="/contact-us">
+            <a href="/contact">
 		        <div class="btn-action">
 			        <button type="button" class="btn btn-lg btn-outline-primary btnSecHeader">Free Estimate</button>
 		        </div>		

@@ -151,10 +151,18 @@ namespace WP_Rig\WP_Rig;
             <div class="row row2">
                 <div class="text3">
                     <p>Privacy Policy</p>
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                    <a href="https://www.facebook.com/AAServicesHomeImprovement" target="_blank">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://twitter.com/AAServicesHome" target="_blank">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/a&a-services-home-improvement" target="_blank">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.youtube.com/user/AandAService/featured" target="_blank">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                    </a>
                     <p>Cookie Policy</p>
                 </div>
             </div>

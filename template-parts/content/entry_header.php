@@ -6,6 +6,10 @@
  */
 
 namespace WP_Rig\WP_Rig;
+$subpageHeader= "";
+if(!is_front_page() && !is_home()){
+	$subpageHeader= "subpageHeader";
+}
 
 ?>
 

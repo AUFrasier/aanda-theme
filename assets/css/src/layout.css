@@ -619,7 +619,7 @@
 	padding-bottom: 0 !important;
 	margin-bottom: 0 !important;
 }
-.text3 i{
+.text3 a{
 	font-size: 20px !important;
     background-color: blue;
     border-radius: -57%;
@@ -627,7 +627,7 @@
     padding: 0px 17px;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #fff !important;
 }
 .text3 p{
 	margin-top: 7px !important;
@@ -767,11 +767,11 @@
 }
 /* CARD 3 */
 .card .card-front-3{
-	background: url("/wp-content/uploads/2020/09/entrydoor_3-scaled.jpg");
+	background: url("/wp-content/uploads/2020/09/A_A_Services-windows.jpg");
 	background-position: 50% 50% !important;
 }
 .card .card-back-3{
-	background: url("/wp-content/uploads/2020/09/entrydoor_3-scaled.jpg");
+	background: url("/wp-content/uploads/2020/09/A_A_Services-windows.jpg");
 	background-position: 50% 50% !important;
 }
 /* CARD 4 */
@@ -1053,14 +1053,21 @@
 /*--------------------------------------------------------------
 ## Section 4 -- Testimonials
 --------------------------------------------------------------*/
-.wrap-4 .test{
+.wrap-4 .quotes{
 	justify-content: center !important;
 	box-sizing: border-box;
 	border: 5px solid blue;
 	position: relative;
 }
-.wrap-4 .test img{
+.wrap-4 .quotes .first{
 	position: absolute;
+	top: 15px;
+    left: 101px;
+}
+.wrap-4 .quotes .second{
+	position: absolute;
+	bottom: 90px;
+    right: 134px;
 }
 
 .swiper-pagination-testimonials{
@@ -1348,6 +1355,14 @@
 		margin-right: 40px !important;
 	}
 }
+@media screen and (max-width: 1352px) {
+	/* header */
+	.header-top .header-action-wrapper{
+		margin-top: 50px !important;
+		margin-bottom: 30px !important;
+	}
+}
+
 
 @media screen and (max-width: 1150px) {
 	/* wrap 5 */
