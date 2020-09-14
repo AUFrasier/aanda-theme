@@ -59,8 +59,8 @@ namespace WP_Rig\WP_Rig;
       </div>
 
         <!-- Free estimate -->
-        <div class="forBtn col-2">
-            <a href="/contact-us">
+        <div class="forBtn">
+            <a href="/contact">
 			    <div class="header-action">
 				<button type="button" class="btn btn-lg btn-outline-primary btnSecHeader">Free Estimate</button>
 			    </div>		
@@ -72,7 +72,7 @@ namespace WP_Rig\WP_Rig;
 
 <div class="row">
     <div class="middleSec">     
-        <div class="sec1 col-3">
+        <div class="sec1 col-lg-12 col-xl-3">
             <h4><strong>A&A Services Home Improvement</strong></h4>
             <div class="home">
                 <div class="icon">
@@ -117,7 +117,7 @@ namespace WP_Rig\WP_Rig;
                 </div>
             </div>
         </div>
-        <div class="sec2 col-6">
+        <div class="sec2 col-12 col-xl-6"">
             <div class="row row1">
                 <div class="text1">
                     <a href="#roofing">
@@ -159,7 +159,7 @@ namespace WP_Rig\WP_Rig;
                 </div>
             </div>
         </div>
-        <div class="sec3 col-3">
+        <div class="sec3 col-12 col-xl-3"">
             <p>
                 <strong>Licenses</strong>
             </p>
