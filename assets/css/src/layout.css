@@ -345,7 +345,7 @@
     border: 4px solid #fff;
     border-radius: 50%;
     position: absolute;
-    top: -18px;
+    top: -30px;
     z-index: 900;
     background-color: var(--color--blue);
 }
@@ -380,7 +380,6 @@
 	.wrap-0 .row .col img {
 		width: 200px !important;
 		padding: 50px 40px !important;
-		top:-15px !important;
 	}
 	.wrap-0 .row{
 		height: 13vh !important;
