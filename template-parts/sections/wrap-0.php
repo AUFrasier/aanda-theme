@@ -12,7 +12,7 @@ namespace WP_Rig\WP_Rig;
 <div class="wrap wrap-0">
     <div class="container-fluid">
     <div class="row">  
-            <div class="col colTop">
+            <div class="col col-xl-3 colTop">
 			    <p>
 				    Experience the
 			    </p>
@@ -20,10 +20,10 @@ namespace WP_Rig\WP_Rig;
 				    Anti-Sales Meeting
 			    </p>
             </div>
-            <div class="col colArrow">
+            <div class="col col-xl-2 colArrow">
                 <img src="/wp-content/uploads/2020/09/A_A_arrow.png" alt="">
             </div>
-		    <div class="col">
+		    <div class="col col-xl-2">
                 <p>
                     Receive
                 </p>
@@ -31,10 +31,10 @@ namespace WP_Rig\WP_Rig;
                     Expert Delivery
                 </p>
 		    </div>
-		    <div class="col colArrow">
+		    <div class="col col-xl-2 colArrow">
 			    <img src="/wp-content/uploads/2020/09/A_A_arrow.png" alt="">
 		    </div>
-		    <div class="col colBottom">
+		    <div class="col col-xl-3 colBottom">
 			    <p>
 				    Obtain Lifetime Support
 			    </p>
