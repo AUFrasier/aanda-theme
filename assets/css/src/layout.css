@@ -89,7 +89,14 @@
 .hero-title h1 strong{
 	font-weight: 600 !important;
 }
-
+#menu-item-136 .sub-menu{
+	display: none !important;
+}
+#menu-item-136:hover .sub-menu{
+	top: 0 !important;
+	left: 100% !important;
+	display: block !important;
+}
 
 .hero-content {
 	width: 100%;
