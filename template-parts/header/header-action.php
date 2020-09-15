@@ -11,7 +11,7 @@ namespace WP_Rig\WP_Rig;
 
 <div class="header-action-wrapper">
 	<div class="number">
-		<a href="tel:+19702192343">970-219-2343</a>
+		<a href="tel:+15088934463 ">508-893-4463</a>
 	</div>	
 	<a href="#contact">
 		<div class="header-action">

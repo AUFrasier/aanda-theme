@@ -95,8 +95,8 @@ namespace WP_Rig\WP_Rig;
                     <i class="fa fa-phone" aria-hidden="true"></i>
                 </div>
                 <div class="text">
-                    <a href="tel:+9782192343">
-                        978-219-2343
+                    <a href="tel:+15088934463 ">
+                        508-893-4463 
                     </a>
                 </div>
             </div>
