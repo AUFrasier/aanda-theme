@@ -14,7 +14,7 @@ namespace WP_Rig\WP_Rig;
         <div class="row">
             <div class="divSolution">
                 <div class="divSolution__title">
-                    <img src="/wp-content/uploads/2020/09/A_ALOGO_Aplus_new.png" alt="logo">
+                    <img src="/wp-content/uploads/2020/09/A_A_A.png" alt="logo">
                     <h2>Solutions</h2>
                 </div>
                 <div class="logo">
@@ -29,7 +29,7 @@ namespace WP_Rig\WP_Rig;
             </div>
             <div class="divteamwork">
                 <div class="divteamwork__title">
-                    <img src="/wp-content/uploads/2020/09/A_ALOGO_Aplus_new.png" alt="logo">
+                    <img src="/wp-content/uploads/2020/09/A_A_A.png" alt="logo">
                     <h2>Teamwork</h2>
                 </div>
                 <div class="logo">
@@ -44,7 +44,7 @@ namespace WP_Rig\WP_Rig;
             </div>
             <div class="divSupport">
                 <div class="divSupport__title">
-                    <img src="/wp-content/uploads/2020/09/A_ALOGO_Aplus_new.png" alt="logo">
+                    <img src="/wp-content/uploads/2020/09/A_A_A.png" alt="logo">
                     <h2>Support</h2>
                 </div>
                 <div class="logo">

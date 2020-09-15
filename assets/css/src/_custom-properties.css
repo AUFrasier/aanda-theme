@@ -63,5 +63,9 @@
 
 	/* Color blue for cards*/
 
-	/* Font */
+	/* Blue color */
+	--color--blue: #00539B;
+	/* Color Yellow */
+	--color--yellow: #FEE950;
+
 }

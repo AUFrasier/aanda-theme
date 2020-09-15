@@ -98,7 +98,7 @@ namespace WP_Rig\WP_Rig;
 
     <a href="/contact">
 		<div class="btn-action">
-			<button type="button" class="btn btn-lg btn-outline-primary btnSecHeader">Free Estimate</button>
+			<button type="button" class="btn btn-lg btnSecHeader">Free Estimate</button>
 		</div>		
     </a>
 </div><!-- .wrap-1 -->
