@@ -15,42 +15,42 @@ namespace WP_Rig\WP_Rig;
         <div class="col-12 col-xl-10 forMenu">
       <!-- HOME -->
       <div class="text-center">
-            <h6 class="menuFooter" style="font-weight: 900 !important">
+            <h6 class="menuFooter" style="font-weight: 800 !important">
                 <a href="#">
                     Services
                 </a>
             </h6>
      </div>
       <div class=" text-center">
-        <h6 class="menuFooter" style="font-weight: 900 !important">
+        <h6 class="menuFooter" style="font-weight: 800 !important">
             <a href="#">
               About
             </a>
         </h6>
       </div>
       <div class=" text-center">
-        <h6 class="menuFooter" style="font-weight: 900 !important">
+        <h6 class="menuFooter" style="font-weight: 800 !important">
             <a href="service-area">
               Service Area
             </a>
         </h6>
       </div>
       <div class=" text-center">
-        <h6 class="menuFooter" style="font-weight: 900 !important">
+        <h6 class="menuFooter" style="font-weight: 800 !important">
                 <a href="promotion">
                     Promotion
                 </a>
         </h6>
         </div>
       <div class=" text-center">
-        <h6 class="menuFooter" style="font-weight: 900 !important">
+        <h6 class="menuFooter" style="font-weight: 800 !important">
                 <a href="blog">
                     Blog
                 </a>
         </h6>
       </div>
       <div class="text-center">
-        <h6 class="menuFooter" style="font-weight: 900 !important">
+        <h6 class="menuFooter" style="font-weight: 800 !important">
                 <a href="contact">
                     Contact
                 </a>
