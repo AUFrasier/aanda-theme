@@ -37,7 +37,7 @@ namespace WP_Rig\WP_Rig;
              <p class="third">
                 windows, and doors. <strong>We guarantee that “We’ll Make It Right” on every project.</strong>
              </p>   
-            <img src="/wp-content/uploads/2020/09/A_A_family.png" alt="">
+            <img src="/wp-content/uploads/2020/09/A_A_family.png" alt="" class="firstImg">
             <img src="/wp-content/uploads/2020/09/A_ALOGO_Aplus_new.png" alt="" class="secImg">
             <a href="/contact">
 		        <div class="btn-action">

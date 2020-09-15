@@ -1152,6 +1152,7 @@
 }
 .wrap-6 .row img{
 	position: relative;
+	z-index: 20 !important;
 }
 .wrap-6 .row .secImg{
 	position: absolute;
@@ -1203,17 +1204,15 @@
 	font-weight: 400 !important;
 	margin-left: 40px !important;
 	margin-right: 40px !important;
+	line-height: 1 !important;
 }
 
 .wrap-6 .row img{
-	background-position: 50% 50%;
-	/*
-	height: 500px !important;
-	width: 800px !important;
-	*/
-	height: 20% !important;
     width: 50% !important;
 	margin-bottom: 40px !important;
+}
+.wrap-6 .row .firstImg{
+	z-index: 80 !important;
 }
 
 .wrap-6 .row button{
