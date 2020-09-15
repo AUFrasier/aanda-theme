@@ -142,7 +142,7 @@
 	color: #fff !important;
 }
 #menu-menu-1 .sub-menu a:hover{
-	color: red !important;
+	color: var(--color--yellow) !important;
 }
 .menu-item-46>.sub-menu{
     display: none !important;
