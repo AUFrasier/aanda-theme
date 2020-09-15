@@ -22,7 +22,7 @@ namespace WP_Rig\WP_Rig;
                 </div>
                 <div class="values__section-2">
                     <h3 class="one">Do <strong>Whatever It takes</strong></h3>
-                    <h3>Act With <strong>Integrity</strong></h3>
+                    <h3 class="marginLeft">Act With <strong>Integrity</strong></h3>
                 </div>
                 <div class="values__section-3">
                     <h3><strong>Deliver A Positive Experience<strong></h3>                
