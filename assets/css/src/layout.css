@@ -496,14 +496,16 @@
 	padding: 5px !important;
 }
 /* overall for the whole section*/
+.forMenu .menuFooter{font-size: 22px !important}
+
 .sec1,
 .sec2{
 	border-right: 4px dashed #ccebff;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .sec3{
-	margin-top: 20px;
+	margin-top: 50px;
 }
 
 .footer-menu .forMenu{
@@ -1439,6 +1441,25 @@
 		margin-bottom: 30px !important;
 	}
 }
+@media screen and (max-width: 1300px) {
+	/*
+
+	.footer-menu{
+		margin-left: 0 !important;
+    	padding-left: 0 !important;
+	}
+	.footer-menu .row{
+		display: flex;
+		flex-direction: column !important;
+	}
+	.footer-menu .row .forBtn{
+		margin: 0 auto !important;
+	}
+	*/
+	.forMenu .menuFooter{font-size: 22px !important};
+}
+
+
 
 @media screen and (max-width: 1150px) {
 	/* wrap 5 */
@@ -1528,6 +1549,23 @@
 	.sec1, .sec2 {
 		border-right: none !important;
 	}
+
+	/*footer top */
+	.footer-menu .forMenu {
+		margin-bottom: 20px;
+	}
+	.footer-menu{
+		margin-left: 0 !important;
+    	padding-left: 0 !important;
+	}
+	.footer-menu .row{
+		display: flex;
+		flex-direction: column !important;
+	}
+	.footer-menu .row .forBtn{
+		margin: 0 auto !important;
+	}
+	
 	/* Cards */
 	.card-body .card-title {
 		font-size: 45px !important;
@@ -1753,7 +1791,16 @@
 		margin-left: 0 !important; 
 	}
 }
-
+@media screen and (max-width: 640px) {
+	/* footer */
+	.footer-menu .forMenu{
+		display: flex;
+		flex-direction: column;
+	}
+	.forMenu .menuFooter {
+		font-size: 25px !important;
+	}
+}
 @media screen and (max-width: 601px) {
 	.card{
 		margin-left: 0 !important;
@@ -1840,6 +1887,34 @@
 	.divSolution, .divteamwork {
 		margin-top: 70px !important;
 		margin-bottom: 0px !important;
+	}
+	/* Footer */
+	.sec2 .row1 .text1 a, 
+	.sec2 .row1 .text2 a {
+		font-size: 18px !important;
+	}
+	.sec2 .row2 .text3 p {
+		font-size: 18px !important;
+	}
+	.sec3 p {
+		font-size: 18px !important;
+	}
+	.sec1 p {
+		font-size: 18px !important;
+	}
+	.sec1 h4 {
+		font-size: 19px !important;
+	}
+	.phone .text a {
+		font-size: 18px !important;
+	}
+	.text3 a {
+		font-size: 20px !important;
+	}
+	.clock .icon i, 
+	.home .icon i, 
+	.phone .icon i {
+		font-size: 50px !important;
 	}
 }
 
@@ -1961,6 +2036,10 @@
 		width: 400px !important;
 		margin: 0px auto 50px !important;
 	}
+	/* Footer */
+	.sec2 .row1 {
+		margin-right: -81px;
+	}
 
 }
 
@@ -2006,6 +2085,38 @@
 	.wrap-2 .row .logo img {
 		margin-left: 45px !important;
 		width: 265px !important;
+	}
+	/* Footer */
+	.sec2 .row1 .text1 a, 
+	.sec2 .row1 .text2 a {
+		font-size: 14px !important;
+	}
+	.sec2 .row2 .text3 p {
+		font-size: 14px !important;
+	}
+	.sec3 p {
+		font-size: 14px !important;
+	}
+	.sec1 p {
+		font-size: 14px !important;
+	}
+	.sec1 h4 {
+		font-size: 15px !important;
+	}
+	.phone .text a {
+		font-size: 14px !important;
+	}
+	.text3 a {
+		font-size: 20px !important;
+	}
+	.text3 div a {
+		font-size: 25px !important;
+	}
+	.middleSec .sec1 .clock {
+		padding-left: 70px!important;
+	}
+	.middleSec .sec1 .phone {
+		margin-left: -11px !important;
 	}
 }
 
@@ -2108,6 +2219,10 @@
 	.wrap-7 .map img {
 		width: 350px !important;
 	}
+	/* footer */
+	.sec2 .row1 {
+		margin-right: -45px;
+	}
 }
 
 @media screen and (max-width: 280px) {
@@ -2141,6 +2256,10 @@
 	}
 	.card-body a {
 		width: 150px !important;
+	}
+	/* footer */
+	.sec2 .row1 {
+		margin-right: -27px;
 	}
 }
 

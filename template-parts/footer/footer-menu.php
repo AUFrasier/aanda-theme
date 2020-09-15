@@ -12,45 +12,45 @@ namespace WP_Rig\WP_Rig;
 <div class="footer-menu-wrapper">
     <menu class="footer-menu">
         <div class="row">    
-        <div class="col-10 forMenu">
+        <div class="col-12 col-xl-10 forMenu">
       <!-- HOME -->
       <div class="text-center">
-            <h6 class="menuFooter" style="font-size: 25px !important; font-weight: 900 !important">
-                <a href="/" style="color: #000">
+            <h6 class="menuFooter" style="font-weight: 900 !important">
+                <a href="/">
                     Home
                 </a>
             </h6>
      </div>
       <div class=" text-center">
-        <h6 class="menuFooter" style="font-size: 25px !important;font-weight: 900 !important">
+        <h6 class="menuFooter" style="font-weight: 900 !important">
             <a href="#about">
               About
             </a>
         </h6>
       </div>
       <div class=" text-center">
-        <h6 class="menuFooter" style="font-size: 25px !important; font-weight: 900 !important">
+        <h6 class="menuFooter" style="font-weight: 900 !important">
             <a href="#service-area">
               Service Area
             </a>
         </h6>
       </div>
       <div class=" text-center">
-        <h6 class="menuFooter" style="font-size: 25px !important; font-weight: 900 !important">
+        <h6 class="menuFooter" style="font-weight: 900 !important">
                 <a href="#promotion">
                     Promotion
                 </a>
         </h6>
         </div>
       <div class=" text-center">
-        <h6 class="menuFooter" style="font-size: 25px !important; font-weight: 900 !important">
+        <h6 class="menuFooter" style="font-weight: 900 !important">
                 <a href="#blog">
                     Blog
                 </a>
         </h6>
       </div>
-      <div class=" text-center menuFooter">
-        <h6 style="font-size: 25px !important; font-weight: 900 !important">
+      <div class="text-center">
+        <h6 class="menuFooter" style="font-weight: 900 !important">
                 <a href="#contact">
                     Contact
                 </a>
@@ -60,7 +60,7 @@ namespace WP_Rig\WP_Rig;
 
         <!-- Free estimate -->
         <div class="forBtn">
-            <a href="/contact">
+            <a href="#contact">
 			    <div class="header-action">
 				<button type="button" class="btn btn-lg btn-outline-primary btnSecHeader">Free Estimate</button>
 			    </div>		
