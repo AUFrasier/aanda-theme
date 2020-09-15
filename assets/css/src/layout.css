@@ -891,7 +891,7 @@
 
 .wrap-2 .row h2{
 	color: #fff;
-	font-size: 50px !important;
+	font-size: 75px !important;
 	font-weight: 800 !important;
 	margin-left: 20px !important;
 }
@@ -907,9 +907,11 @@
 .wrap-2 .row .par{
 	display: flex;
 	justify-content: center;
-	font-size: 30px !important;
+	font-size: 39px !important;
 	text-align: center !important;
 	margin-left: -44px !important;
+	margin-top: 50px !important;
+	font-weight: 800 !important;
 }
 
 .divSolution__title,
@@ -924,8 +926,8 @@
 .divSolution,
 .divteamwork,
 .divSupport {
-	margin-top: 30px !important;
-    margin-bottom: 30px !important;
+	margin-top: 70px !important;
+    margin-bottom: 70px !important;
 }
 
 /*--------------------------------------------------------------
@@ -1509,9 +1511,6 @@
 
 @media screen and (max-width: 727px) {
 	/* wrap 2*/
-	.wrap-2 .row h2 {
-		font-size: 2.8vw !important;
-	}
 	.wrap-2 .row .par {
 		font-size: 25px !important;
 	}
@@ -1598,16 +1597,19 @@
 	.card-body .card-text {
 		margin-top: -140px !important;
 	}
-
-
-
 	.card-body .card-text {
 		font-size: 25px !important;
 	}
 	.card-back-2 .card-body .card-text {
 		font-size: 25px !important;
 	}
-
+	/* wrap 2 */
+	.wrap-2 .row img {
+		width: 130px !important;
+	}
+	.wrap-2 .row h2 {
+		font-size: 40px !important;
+	}
 
 	/* wrap 6 */
 	.wrap-6 .row p {
@@ -1616,6 +1618,10 @@
 	.wrap-6 .btn-action button {
 		width: var(--button-width-one) !important;
 		font-size: var(--button-font-size-one) !important;
+	}
+	.divSolution, .divteamwork {
+		margin-top: 70px !important;
+		margin-bottom: 0px !important;
 	}
 }
 
@@ -1679,19 +1685,18 @@
 	}
 
 	/* wrap 2 */
+	.wrap-2 .row img {
+		width: 80px !important;
+		margin-right: 0 !important;
+	}
 	.wrap-2 .row h2 {
-		font-size: 25px !important;
+		font-size: 32px !important;
 	}
 	.wrap-2 .row .par {
-		font-size: 22px !important;
+		margin-left: 40px !important;
+		font-size: 25px !important;
 	}
-	.wrap-2 .row img {
-		width: 155px !important;
-	}
-	.wrap-2 .row .logo img {
-		width: 88% !important; /* 240px */
-		margin-left: 22px !important;
-	}
+	
 	/* wrap 3 */
 	.wrap-3 .values__title h2 {
 		font-size: 25px !important;
@@ -1737,6 +1742,18 @@
 	.card-body .card-text {
 		font-size: 20px !important;
 	}
+	/* wrap 2 */
+	.wrap-2 .row h2 {
+		font-size: 32px !important;
+	}
+	.wrap-2 .row .par {
+		margin-left: 40px !important;
+		font-size: 25px !important;
+	}
+	.wrap-2 .row .logo img {
+		margin-left: 45px !important;
+		width: 265px !important;
+	}
 }
 
 @media screen and (max-width: 360px) {
@@ -1775,25 +1792,7 @@
 }
 
 @media screen and (max-width: 350px) {
-	/* wrap 2 */
-	.wrap-2 .row h2 {
-		font-size: 22px !important;
-	}
-	.wrap-2 .row .par {
-		font-size: 18px !important;
-	}
-	.wrap-2 .row img {
-		width: 125px !important;
-	}
-	.wrap-2 .row .logo img {
-		width: 210px !important;
-		margin-left: 22px !important;
-	}
-	.divSolution,
-	.divSupport,
-	.divteamwork{
-		margin-left: -21px !important;
-	}
+	
 }
 
 @media screen and (max-width: 320px) {
@@ -1810,6 +1809,19 @@
 	}
 	.hero-container{
 		height: 34vh;
+	}
+	/* wrap 2 */
+	.wrap-2 .row .par {
+		font-size: 20px !important;
+	}
+	.wrap-2 .row h2 {
+		font-size: 28px !important;
+	}
+	.wrap-2 .row img {
+		width: 75px !important;
+	}
+	.wrap-2 .row .logo img {
+		width: 230px !important;
 	}
 	/* wrap 5 */
 	.wrap-5 .reviews .logo {
@@ -1829,6 +1841,19 @@
 }
 
 @media screen and (max-width: 280px) {
+		/* wrap 2 */
+		.wrap-2 .row .par {
+			font-size: 17px !important;
+		}
+		.wrap-2 .row h2 {
+			font-size: 25px !important;
+		}
+		.wrap-2 .row img {
+			width: 65px !important;
+		}
+		.wrap-2 .row .logo img {
+			width: 210px !important;
+		}
 	/* wrap 5 */
 
 	/* wrap 6 */
