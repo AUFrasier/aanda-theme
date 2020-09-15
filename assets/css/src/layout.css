@@ -1250,8 +1250,9 @@
 /*Button End*/
 
 .wrap-7 .map img{
-	width: 800px !important;
-	height: 550px;
+	width: 100% !important;
+	height: auto !important;
+	margin-left: 30px !important;
 }
 .wrap-7 .text{
 	display: flex;
@@ -1260,10 +1261,10 @@
 	align-items: center;
 }
 .wrap-7 .text h3{
-	font-size: 50px !important;
+	font-size: 3.4vw !important;
 	text-align: center !important;
 	color: var(--color--blue) !important;
-	font-weight: 900 !important;
+	font-weight: 800 !important;
 }
 /*--------------------------------------------------------------
 ## Section 8
@@ -1409,6 +1410,14 @@
 	}
 	/* wrap 6 */
 
+	/* wrap 7*/
+	.wrap-7 .map img {
+		width: 50%!important;
+		margin-left: 0 !important;
+		margin: 0 auto !important;
+		margin-bottom: 50px !important;
+	}
+
 	/* Footer */
 	.middleSec{
 		flex-direction: column !important;
@@ -1535,6 +1544,14 @@
 	/* wrap 6 */
 	.wrap-6 .row p{
 		font-size: 2vw !important;
+	}
+	/* wrap 7 */
+	.wrap-7 .text h3 {
+		font-size: 28px !important;
+	}
+	.wrap-7 .map img {
+		width: 450px !important;
+		margin: 0px auto 50px !important;
 	}
 }
 
@@ -1767,7 +1784,7 @@
 	}
 	/* wrap 6 */
 	.wrap-6 {
-		border: 20px solid blue !important;
+		border: 20px solid var(--color--blue) !important;
 	}
 	/* wrap 7 */
 	.wrap-7 .btn-action button {
@@ -1832,6 +1849,14 @@
 	}
 	.wrap-6 .row h2 {
 		font-size: 20px !important;
+	}
+	/* wrap 7 */
+	.wrap-7 .text h3 {
+		font-size: 25px !important;
+	}
+	.wrap-7 .map img {
+		width: 400px !important;
+		margin: 0px auto 50px !important;
 	}
 
 }
@@ -1972,6 +1997,13 @@
 	.wrap-6 .btn-action button {
 		width: var(--button-width-two) !important;
 		font-size: var(--button-font-size-two) !important;
+	}
+	/* wrap 7 */
+	.wrap-7 .text h3 {
+		font-size: 20px !important;
+	}
+	.wrap-7 .map img {
+		width: 350px !important;
 	}
 }
 
