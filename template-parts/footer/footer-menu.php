@@ -72,7 +72,7 @@ namespace WP_Rig\WP_Rig;
 
 <div class="row">
     <div class="middleSec">     
-        <div class="sec1 col-lg-12 col-xl-3">
+        <div class="sec1 col-lg-12 col-xl-4">
             <h4><strong>A&A Services Home Improvement</strong></h4>
             <div class="home">
                 <div class="icon">
@@ -117,7 +117,7 @@ namespace WP_Rig\WP_Rig;
                 </div>
             </div>
         </div>
-        <div class="sec2 col-12 col-xl-6"">
+        <div class="sec2 col-12 col-xl-4"">
             <div class="row row1">
                 <div class="text1">
                     <a href="#roofing">
@@ -151,23 +151,27 @@ namespace WP_Rig\WP_Rig;
             <div class="row row2">
                 <div class="text3">
                     <p>Privacy Policy</p>
-                    <a href="https://www.facebook.com/AAServicesHomeImprovement" target="_blank">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://twitter.com/AAServicesHome" target="_blank">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/company/a&a-services-home-improvement" target="_blank">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://www.youtube.com/user/AandAService/featured" target="_blank">
-                        <i class="fa fa-youtube" aria-hidden="true"></i>
-                    </a>
+                    <div class="one">
+                        <a href="https://www.facebook.com/AAServicesHomeImprovement" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://twitter.com/AAServicesHome" target="_blank">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/company/a&a-services-home-improvement" target="_blank">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.youtube.com/user/AandAService/featured" target="_blank">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+                    </div>
                     <p>Cookie Policy</p>
                 </div>
             </div>
         </div>
-        <div class="sec3 col-12 col-xl-3"">
+        <div class="sec3 col-12 col-xl-4"">
             <p>
                 <strong>Licenses</strong>
             </p>

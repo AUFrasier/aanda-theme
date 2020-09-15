@@ -22,18 +22,10 @@ namespace WP_Rig\WP_Rig;
                     <div class="card-body">
                         <h3 class="card-title">Roofing</h3>
                         <p class="card-text">
-                            <!---
-                            At A&A Services Home Improvement, our <br>
-                            professionals are here to help you solve all your <br>
-                            roofing problems. Our technician can tell you if you <br>
-                            need a simple repair from a leak or if your shingles <br>
-                            are too damaged and you may need replacement.
-                            --->
                             Get to the bottom of that roof leak with a complete roof inspection 
                             from a knowledgeable Sales Technician
-
                         </p>
-                        <a href="#" class="btn btn-outline-secondary">Roofing</a>
+                        <a href="#roofing" class="btn btn-outline-secondary">Roofing</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +42,7 @@ namespace WP_Rig\WP_Rig;
                         <p class="card-text">
                             Update the old siding for new curb appealand no more maintenance.                      
                         </p>
-                        <a href="#" class="btn btn-outline-secondary">Siding</a>
+                        <a href="#siding" class="btn btn-outline-secondary">Siding</a>
                     </div>
                 </div>
             </div>
@@ -69,7 +61,7 @@ namespace WP_Rig\WP_Rig;
                         <p class="card-text">
                             Stop paying to heat/cool the outdoors with drafty windows.
                         </p>
-                        <a href="#" class="btn btn-outline-secondary">Windows</a>
+                        <a href="#windows" class="btn btn-outline-secondary">Windows</a>
                     </div>
                 </div>
             </div>
@@ -87,7 +79,7 @@ namespace WP_Rig\WP_Rig;
                             Love the new look of a new front entry door that opens and 
                             closes the way it should and is inviting to your family and friends.
                         </p>
-                        <a href="#" class="btn btn-outline-secondary">Doors</a>
+                        <a href="#doors" class="btn btn-outline-secondary">Doors</a>
                     </div>
                 </div>
             </div>
