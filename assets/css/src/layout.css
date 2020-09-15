@@ -138,7 +138,8 @@
 }
 
 .main-navigation a{
-	color: var(--color--blue) !important
+	color: var(--color--blue) !important;
+	font-size: 1.4vw !important;
 }
 
 /* CODE FOR SERVICES AND SUB ITEMS*/
@@ -151,19 +152,21 @@
 #menu-menu-1 .sub-menu a:hover{
 	color: var(--color--yellow) !important;
 }
-.menu-item-46>.sub-menu{
+#menu-menu-1 .menu-item-46>.sub-menu{
     display: none !important;
 }
-.menu-item-46:hover>.sub-menu{
+#menu-menu-1 .menu-item-46:hover>.sub-menu{
 	display: block !important;
-    left: 99% !important;
+	left: 99% !important;
+	width: 110% !important;
+	top: 0 !important;
 }
 .menu-menu-1-container a:focus{
 	outline: none !important;
 }
 
 .main-navigation .sub-menu {
-	width: 200px !important;
+	width: 120% !important; /* 370 */
 	position: absolute !important;
 }
 
@@ -197,7 +200,7 @@
 }
 
 .hero-text-overlay{
-	margin-top: 280px !important;
+	margin-top: 220px !important;
 	margin-left: 10% !important;
 	box-sizing: border-box;
 	border: 20px solid rgba(255,255,255, 0.7) !important;
@@ -220,7 +223,7 @@
     font-weight: 800 !important;
     border: 3px solid var(--color--blue) !important;
 	text-transform: uppercase;
-	margin-top: 100px !important;
+	/* margin-top: 100px !important; */
 }
 .header-action button:hover{
 	background-color: var(--primary-color-btn) !important;
@@ -519,9 +522,6 @@
 	display: flex;
 	justify-content: space-evenly !important;
 	align-items: center !important;
-}
-.header-action{
-	margin-top: -100px !important;
 }
 .forMenu .menuFooter a{
 	color: #fff !important;
@@ -1030,6 +1030,7 @@
 	text-transform: uppercase;
 	margin-bottom: 50px !important;
 	margin-top: 30px !important;
+	text-shadow: 5px 6px 10px rgba(0, 0, 0, 0.7) !important;
 }
 
 .wrap-3 .row .values__section-1,
@@ -1046,11 +1047,13 @@
 .wrap-3 .row .values__section-1 h3,
 .wrap-3 .row .values__section-2 h3{
 	font-size: 41px !important;
+	text-shadow: 5px 6px 10px rgba(0, 0, 0, 0.7) !important;
 }
 
 .wrap-3 .row .values__section-3 h3{
 	font-size: 66px !important;
 	margin-bottom: 30px !important;
+	text-shadow: 5px 6px 10px rgba(0, 0, 0, 0.7) !important;
 }
 
 .wrap-3 .row .values__section-1 .one{
@@ -1490,8 +1493,10 @@
 @media screen and (max-width: 1352px) {
 	/* header */
 	.header-top .header-action-wrapper{
-		margin-top: 50px !important;
-		margin-bottom: 30px !important;
+		margin-top: 0 !important;
+	}
+	.main-navigation a {
+		font-size: 25px !important;
 	}
 }
 @media screen and (max-width: 1300px) {
