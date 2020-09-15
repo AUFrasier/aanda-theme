@@ -25,7 +25,7 @@ namespace WP_Rig\WP_Rig;
                             Get to the bottom of that roof leak with a complete roof inspection 
                             from a knowledgeable Sales Technician
                         </p>
-                        <a href="#oofing" class="btn btn-outline-secondary">Roofing</a>
+                        <a href="roofing" class="btn btn-outline-secondary">Roofing</a>
                     </div>
                 </div>
             </div>

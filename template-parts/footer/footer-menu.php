@@ -23,35 +23,35 @@ namespace WP_Rig\WP_Rig;
      </div>
       <div class=" text-center">
         <h6 class="menuFooter" style="font-weight: 900 !important">
-            <a href="#about">
+            <a href="about">
               About
             </a>
         </h6>
       </div>
       <div class=" text-center">
         <h6 class="menuFooter" style="font-weight: 900 !important">
-            <a href="#service-area">
+            <a href="service-area">
               Service Area
             </a>
         </h6>
       </div>
       <div class=" text-center">
         <h6 class="menuFooter" style="font-weight: 900 !important">
-                <a href="#promotion">
+                <a href="promotion">
                     Promotion
                 </a>
         </h6>
         </div>
       <div class=" text-center">
         <h6 class="menuFooter" style="font-weight: 900 !important">
-                <a href="#blog">
+                <a href="blog">
                     Blog
                 </a>
         </h6>
       </div>
       <div class="text-center">
         <h6 class="menuFooter" style="font-weight: 900 !important">
-                <a href="#contact">
+                <a href="contact">
                     Contact
                 </a>
         </h6>
@@ -60,7 +60,7 @@ namespace WP_Rig\WP_Rig;
 
         <!-- Free estimate -->
         <div class="forBtn">
-            <a href="#contact">
+            <a href="contact">
 			    <div class="header-action">
 				<button type="button" class="btn btn-lg btn-outline-primary btnSecHeader">Free Estimate</button>
 			    </div>		
