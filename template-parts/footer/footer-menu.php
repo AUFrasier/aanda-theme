@@ -16,14 +16,14 @@ namespace WP_Rig\WP_Rig;
       <!-- HOME -->
       <div class="text-center">
             <h6 class="menuFooter" style="font-weight: 900 !important">
-                <a href="/">
-                    Home
+                <a href="#">
+                    Services
                 </a>
             </h6>
      </div>
       <div class=" text-center">
         <h6 class="menuFooter" style="font-weight: 900 !important">
-            <a href="about">
+            <a href="#">
               About
             </a>
         </h6>
@@ -120,16 +120,16 @@ namespace WP_Rig\WP_Rig;
         <div class="sec2 col-12 col-xl-4"">
             <div class="row row1">
                 <div class="text1">
-                    <a href="#roofing">
+                    <a href="roofing">
                         Roofing
                     </a>
-                    <a href="#siding">
+                    <a href="siding">
                         Siding
                     </a>
-                    <a href="#windows">
+                    <a href="windows">
                         Windows
                     </a>
-                    <a href="#doors">
+                    <a href="doors-2">
                         Doors
                     </a>
                 </div>
@@ -137,13 +137,13 @@ namespace WP_Rig\WP_Rig;
                 <a href="#roofing">
                         COVID-19 Update
                     </a>
-                    <a href="#meet-the-team">
+                    <a href="meet-the-team">
                         Meet The Team
                     </a>
-                    <a href="#carrers-employement">
+                    <a href="carrers-employement">
                         Careers - Employment
                     </a>
-                    <a href="#financing">
+                    <a href="financing">
                         Financing
                     </a>
                 </div>
