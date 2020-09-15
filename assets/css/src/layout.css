@@ -836,8 +836,8 @@
 }
 
 .wrap-1 .btn-action button{
-	width: 350px !important;
-	font-size: 30px !important;
+	width: 420px !important;
+    font-size: 47px !important;
 	font-weight: 800 !important;
 	background-color: var(--color--yellow) !important;
 	border: 3px solid var(--color--blue) !important;
@@ -947,8 +947,8 @@
     margin-bottom: 40px !important;
 }
 .wrap-3 .btn-action button {
-    width: 350px!important;
-    font-size: 30px!important;
+    width: 420px !important;
+    font-size: 47px !important;
     font-weight: 800!important;
     background-color: var(--color--yellow) !important;
     border: 3px solid var(--color--blue) !important;
@@ -1154,8 +1154,8 @@
     margin-bottom: 40px !important;
 }
 .wrap-6 .btn-action button {
-    width: 350px!important;
-    font-size: 30px!important;
+    width: 420px !important;
+    font-size: 47px !important;
     font-weight: 800!important;
     background-color: var(--color--yellow) !important;
     border: 3px solid var(--color--blue) !important;
@@ -1216,8 +1216,8 @@
     margin-top: 30px !important;
 }
 .wrap-7 .btn-action button {
-    width: 350px!important;
-    font-size: 30px!important;
+    width: 420px !important;
+    font-size: 47px !important;
     font-weight: 800!important;
     background-color: var(--color--yellow) !important;
     border: 3px solid var(--color--blue) !important;
