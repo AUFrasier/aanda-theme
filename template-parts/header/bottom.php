@@ -6,8 +6,9 @@
  */
 
 namespace WP_Rig\WP_Rig;
+$frontPageHeroID = is_front_page() ? "front-page-hero" : 'subpage-hero';
 ?>
 
-<div class="header-bottom">
+<div id="<?= $frontPageHeroID ?>" class="header-bottom">
     <?php get_template_part( 'template-parts/header/hero' ); ?>
 </div><!-- .header-bottom -->

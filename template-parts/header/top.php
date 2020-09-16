@@ -6,9 +6,10 @@
  */
 
 namespace WP_Rig\WP_Rig;
+$frontPageHeroID = is_front_page() ? "front-page-header" : 'subpage-header';
 ?>
 
-<div class="header-top">
+<div id="<?= $frontPageHeroID ?>" class="header-top">
     <?php get_template_part( 'template-parts/header/branding' ); ?>
     <?php get_template_part( 'template-parts/header/navigation' ); ?>
     <?php get_template_part( 'template-parts/header/header-action' ); ?>

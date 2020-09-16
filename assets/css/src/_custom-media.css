@@ -17,3 +17,4 @@
 @custom-media --mobile-device-phone-L screen and (max-width: 425px);
 @custom-media --mobile-device-phone-M screen and (max-width: 375px);
 @custom-media --mobile-device-phone-S screen and (max-width: 320px);
+@custom-media --sticky-custom screen and (min-width: 768px);

@@ -19,3 +19,20 @@
 @media (--mobile-device-phone-S) {
 
 }
+
+@media (--sticky-custom) {
+	.sticky {
+		position: fixed;
+		top: 0;
+        width: 100%;
+        background-color: #fff;
+        width: 100% !important;
+        padding: 20px;
+        z-index: 999;
+        height: 200px !important;
+    }
+    .sticky-active-prim {
+        padding-top: 200px !important;
+    }
+}
+

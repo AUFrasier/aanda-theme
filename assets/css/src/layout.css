@@ -194,7 +194,7 @@
 .main-navigation .sub-menu li a {
     padding: 5px;
 }
-
+/*
 .hero-text-overlay .action #action-btn{
 	background-color: var(--primary-color-btn) !important;
     color: var(--color--blue) !important;
@@ -217,7 +217,7 @@
 	border: 20px solid rgba(255,255,255, 0.7) !important;
 	width: 480px !important;
 }
-
+*/
 /* Call to action */
 .header-action-wrapper .number{
 	font-size: 28px !important;
@@ -1886,9 +1886,11 @@
 	}
 	.hero-container {
 		position: relative;
+		/* 
 		background-image: none !important;
-		background-color: var(--color--blue) !important;
+		background-color: var(--color--blue) !important; 
 		height: 40vh;
+		*/
 	}
 	.hero-content {
 		display: flex;
