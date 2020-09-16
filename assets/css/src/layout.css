@@ -766,6 +766,9 @@
 /*--------------------------------------------------------------
 ## Section 1
 --------------------------------------------------------------*/
+.wrap-1 .row2{
+	margin-bottom: 50px !important;
+}
 .card{
 	height: 55vh !important;
 	margin: 30px 30px !important;
@@ -861,8 +864,6 @@
 	background-position: 50% 50% !important;
 }
 /* -------------------   END OF CARDS     ------------------------------*/
-
-
 .card-flip > div {
 	backface-visibility: hidden;
 	transition: transform 0.5s;
@@ -1315,7 +1316,7 @@
 /*Button End*/
 
 .wrap-7 .map img{
-	width: 100% !important;
+	width: 85% !important; /* was 100% */
 	height: auto !important;
 	margin-left: 30px !important;
 }
@@ -1335,7 +1336,7 @@
 ## Section 8
 --------------------------------------------------------------*/
 .wrap-8 .row .col img{
-	width: 350px !important;
+	width: 300px !important; /* was 350px */
 }
 
 .row .col{

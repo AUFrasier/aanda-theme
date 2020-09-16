@@ -49,7 +49,7 @@ namespace WP_Rig\WP_Rig;
         </div>
     </div>
 
-    <div class="row">
+    <div class="row row2">
         <div class="col-md-12 col-lg-6">
             <div class="card card-flip">
                 <div class="card-front card-front-3 text-white">
@@ -87,10 +87,11 @@ namespace WP_Rig\WP_Rig;
     </div>
 
     </div>
-
+    <!---
     <a href="/contact">
 		<div class="btn-action">
 			<button type="button" class="btn btn-lg btnSecHeader">Free Estimate</button>
 		</div>		
     </a>
+    --->
 </div><!-- .wrap-1 -->

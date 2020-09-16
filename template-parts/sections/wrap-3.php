@@ -29,11 +29,13 @@ namespace WP_Rig\WP_Rig;
                 </div>
             </div>
 
+            <!---
             <a href="/contact">
 		        <div class="btn-action">
 			        <button type="button" class="btn btn-lg btn-outline-primary btnSecHeader">Free Estimate</button>
 		        </div>		
             </a>
+            --->
             
 		</div>
     </div>

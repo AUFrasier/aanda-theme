@@ -27,7 +27,7 @@ namespace WP_Rig\WP_Rig;
                 <img src="/wp-content/uploads/2020/09/A_A_affiliation-16.jpg" alt="">
             </div>
             <div class="col col-12 col-md-6 col-lg-3">
-                <img src="/wp-content/uploads/2020/09/A_A_affiliation-17.jpg" alt="">
+                
             </div>       
         </div>
     </div>
