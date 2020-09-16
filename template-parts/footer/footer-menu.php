@@ -16,8 +16,8 @@ namespace WP_Rig\WP_Rig;
       <!-- HOME -->
       <div class="text-center">
             <h6 class="menuFooter" style="font-weight: 800 !important">
-                <a href="#">
-                    Services
+                <a href="/">
+                    Home
                 </a>
             </h6>
      </div>
@@ -28,6 +28,7 @@ namespace WP_Rig\WP_Rig;
             </a>
         </h6>
       </div>
+      <!---
       <div class=" text-center">
         <h6 class="menuFooter" style="font-weight: 800 !important">
             <a href="service-area">
@@ -35,6 +36,7 @@ namespace WP_Rig\WP_Rig;
             </a>
         </h6>
       </div>
+      --->
       <div class=" text-center">
         <h6 class="menuFooter" style="font-weight: 800 !important">
                 <a href="promotion">
