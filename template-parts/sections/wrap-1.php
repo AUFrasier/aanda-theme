@@ -42,7 +42,7 @@ namespace WP_Rig\WP_Rig;
                         <p class="card-text">
                             Update the old siding for new curb appealand no more maintenance.                      
                         </p>
-                        <a href="siding" class="btn btn-outline-secondary">Siding</a>
+                        <a href="superior-quality-siding-installation" class="btn btn-outline-secondary">Siding</a>
                     </div>
                 </div>
             </div>
