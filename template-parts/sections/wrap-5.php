@@ -22,7 +22,7 @@ namespace WP_Rig\WP_Rig;
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
-                    <p>125 Reviews</p>
+                    <p>134 Reviews</p>
                 </div>
             </div>
 
