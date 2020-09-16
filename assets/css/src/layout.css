@@ -1509,7 +1509,15 @@
 	.wrap-8 h2,
 	.wrap-9 h2,
 	.wrap-10 h2 {
-		margin-left: 0px!important;
+		margin-left: 25px !important;
+	}
+}
+@media screen and (max-width: 1450px) {
+	/* wrap 8 + 9 + 10 */
+	.wrap-8 h2,
+	.wrap-9 h2,
+	.wrap-10 h2 {
+		margin-left: 20px !important;
 	}
 }
 @media screen and (max-width: 1400px) {
@@ -1522,6 +1530,20 @@
 	}
 	.wrap-2 .row .par {
 		font-size: 25px !important;
+	}
+	/* wrap 8 + 9 + 10 */
+	.wrap-8 h2,
+	.wrap-9 h2,
+	.wrap-10 h2 {
+		margin-left: 15px !important;
+	}
+}
+@media screen and (max-width: 1350px) {
+	/* wrap 8 + 9 + 10 */
+	.wrap-8 h2,
+	.wrap-9 h2,
+	.wrap-10 h2 {
+		margin-left: 0px !important;
 	}
 }
 
