@@ -2,6 +2,17 @@
 @import "_custom-media.css";
 
 /*--------------------------------------------------------------
+## SUPPages Buttons
+--------------------------------------------------------------*/
+.wp-block-button__link {
+    color: var(--color--blue) !important;
+	font-weight: 900!important;
+}
+.wp-block-button__link:hover {
+    background-color: var(--color--yellow) !important;
+	color: var(--color--blue) !important;
+}
+/*--------------------------------------------------------------
 ## BAR ABOVE THE MENU BAR
 --------------------------------------------------------------*/
 .offersTitleBar{
@@ -1344,7 +1355,7 @@
 }
 
 .wrap-8 h2{
-	margin-left: 43px !important;
+	margin-left: 65px !important; /* 43px */
     font-size: 79px !important;
     color: var(--color--blue);
     font-weight: 800;
@@ -1363,7 +1374,7 @@
 }
 
 .wrap-9 h2{
-	margin-left: 43px !important;
+	margin-left: 65px !important;
     font-size: 79px !important;
     color: var(--color--blue);
     font-weight: 800;
@@ -1383,7 +1394,7 @@
 }
 
 .wrap-10 h2{
-	margin-left: 43px !important;
+	margin-left: 65px !important;
     font-size: 79px !important;
     color: var(--color--blue);
     font-weight: 800;
@@ -1394,12 +1405,20 @@
 
 
 /* QUERIES */
+@media screen and (max-width: 1800px) {
+	/* wrap 8 + 9 + 10 */
+	.wrap-8 h2,
+	.wrap-9 h2,
+	.wrap-10 h2 {
+		margin-left: 55px!important;
+	}
+}
 @media screen and (max-width: 1750px) {
 	/* wrap 8 + 9 + 10 */
 	.wrap-8 h2,
 	.wrap-9 h2,
 	.wrap-10 h2 {
-		margin-left: 25px!important;
+		margin-left: 50px!important;
 	}
 }
 @media screen and (max-width: 1700px) {
@@ -1444,7 +1463,7 @@
 	.wrap-8 h2,
 	.wrap-9 h2,
 	.wrap-10 h2 {
-		margin-left: 20px!important;
+		margin-left: 45px!important;
 	}
 }
 @media screen and (max-width: 1650px) {
@@ -1452,7 +1471,7 @@
 	.wrap-8 h2,
 	.wrap-9 h2,
 	.wrap-10 h2 {
-		margin-left: 15px!important;
+		margin-left: 40px!important;
 	}
 }
 @media screen and (max-width: 1600px) {
@@ -1460,7 +1479,7 @@
 	.wrap-8 h2,
 	.wrap-9 h2,
 	.wrap-10 h2 {
-		margin-left: 10px!important;
+		margin-left: 35px!important;
 	}
 }
 @media screen and (max-width: 1550px) {
@@ -1468,7 +1487,7 @@
 	.wrap-8 h2,
 	.wrap-9 h2,
 	.wrap-10 h2 {
-		margin-left: 5px!important;
+		margin-left: 30px!important; /* 5px */
 	}
 }
 @media screen and (max-width: 1500px) {
