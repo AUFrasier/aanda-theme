@@ -2,7 +2,7 @@
 @import "_custom-media.css";
 
 /*--------------------------------------------------------------
-## SUPPages Buttons
+## SUPPages Buttons + h1
 --------------------------------------------------------------*/
 .wp-block-button__link {
     color: var(--color--blue) !important;
@@ -11,6 +11,27 @@
 .wp-block-button__link:hover {
     background-color: var(--color--yellow) !important;
 	color: var(--color--blue) !important;
+} 
+#post-122 .entry-header h1,
+#post-121 .entry-header h1,
+#post-17 .entry-header h1,
+#post-123 .entry-header h1{
+   font-size: 50px!important;
+	font-weight: 900 !important;
+}
+.sec1 p {
+    font-weight: 400!important;
+    font-size: 24px!important;
+}
+
+.middleSec .home .text,
+.middleSec .phone .text{
+  margin-bottom: 5px !important;
+}
+
+.wrap-3 .row .values__section-1 h3, 
+.wrap-3 .row .values__section-2 h3{
+    display: list-item !important;
 }
 /*--------------------------------------------------------------
 ## BAR ABOVE THE MENU BAR

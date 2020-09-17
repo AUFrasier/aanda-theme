@@ -108,10 +108,10 @@ namespace WP_Rig\WP_Rig;
                 </div>
                 <div class="text">
                     <p>
-                        9:00 AM - 5:00 PM
+                        Monday-Friday
                     </p>
                     <p>
-                        Monday-Friday
+                        9:00 AM - 5:00 PM
                     </p>
                     <p>
                         Saturday - By Appointment

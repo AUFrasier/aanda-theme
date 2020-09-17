@@ -25,7 +25,7 @@ namespace WP_Rig\WP_Rig;
                     <h3 class="marginLeft">Act With <strong>Integrity</strong></h3>
                 </div>
                 <div class="values__section-3">
-                    <h3><strong>Deliver A Positive Experience<strong></h3>                
+                    <h3>Deliver A <strong>Positive Experience</strong></h3>                
                 </div>
             </div>
 
