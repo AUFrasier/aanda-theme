@@ -36,3 +36,8 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1352px){
+	.sticky {
+    		height: 400px!important;
+	}
+}
