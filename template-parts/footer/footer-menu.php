@@ -12,7 +12,7 @@ namespace WP_Rig\WP_Rig;
 <div class="footer-menu-wrapper">
     <menu class="footer-menu">
         <div class="row">    
-        <div class="col-12 col-xl-10 forMenu">
+        <div class="col-12 forMenu">
       <!-- HOME -->
       <div class="text-center">
             <h6 class="menuFooter" style="font-weight: 800 !important">
@@ -60,14 +60,15 @@ namespace WP_Rig\WP_Rig;
       </div>
       </div>
 
-        <!-- Free estimate -->
+        <!-- 
         <div class="forBtn">
             <a href="contact">
 			    <div class="header-action">
 				<button type="button" class="btn btn-lg btn-outline-primary btnSecHeader">Free Estimate</button>
 			    </div>		
 		    </a>
-        </div>    
+        </div> 
+        --->   
     </div>
     </menu>
 </div><!-- .footer-menu-wrapper -->
